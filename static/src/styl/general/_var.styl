@@ -1,0 +1,54 @@
+// LAYOUT ----------------------
+$base-size = 16 // base size for font and element sizes
+$rem = 1/$base-size // FOR MIXIN USE ONLY, convert px to rem (E.g. 12*$rem rem)
+$px = $base-size // FOR MIXIN USE ONLY, convert rem to px (E.g. 12*$px rem)
+
+base-font-size = ($base-size/16)*100% // variable for stylus-type-utils
+support-for-ie = true // Set to 'false' for no 'px' output with 'rem'
+
+// RESPONSIVE ----------------------
+// use EM for now because iOS 6.1 doesn't support REMs
+$phone-small-width = 480/$base-size em
+$phone-width = 767/$base-size em
+$tablet-width = 768/$base-size em
+$desktop-width = 992/$base-size em
+$desktop-large-width = 1200/$base-size em
+$desktop-xl-width = 1440/$base-size em
+
+// TYPOGRAPHY ----------------------
+$font-size-base = ($base-size/16)*100%
+
+//Fonts
+$font-regular = 'Avenir-Book', sans-serif;
+$font-medium = 'Avenir-Book', sans-serif;
+$font-bold = 'Avenir-Book', sans-serif;
+
+$weight-book = 100
+$weight-light = 300
+$weight-regular = 400
+$weight-semi-bold = 600
+$weight-bold = 700
+$weight-extra-bold = 800
+
+fontFamilyBody()
+	font-family $font-family-sans
+
+
+fontFamilyHeader()
+	font-family Campton-ExtraBold
+
+// z-index
+$below-content = 1
+$content = 2
+$above-content = 3
+$header-content = 4
+
+//Branding
+$tuliptree-Aqua = #9debde;
+$tuliptree-Navy = #021b4f;
+$errorState = #df0064;
+
+// Text Colors
+$primaryTextColor = #021b4f
+$secondaryTextColor = #fff
+$linkColor = #118cd8

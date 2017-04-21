@@ -1,0 +1,51 @@
+{
+  "name": "tuliptree",
+  "version": "1.oo",
+  "author": [
+    "Will @tulipree"
+  ],
+  "homepage": "tuliptree.org",
+  "repository": {
+    "type": "git",
+    "url": "github/tuliptree"
+  },
+  "bugs": {
+    "url": "tulipree.com"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "bootstrap": "^3.3.7",
+    "bower": "^1.4.1",
+    "browser-sync": "^2.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jshint": "^2.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jquery": "^3.1.1",
+    "jshint": "^2.9.3",
+    "modernizr": "^3.3.1",
+    "nib": "^1.1.2",
+    "remodal": "^1.1.0",
+    "run-sequence": "^1.2.2",
+    "slick-carousel": "^1.6.0",
+    "stylus": "^0.54.5",
+    "stylus-type-utils": "0.0.3",
+    "vinyl-paths": "^2.1.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "browser-sync": "^2.12.8",
+    "gulp-git": "^1.7.0",
+    "rangeslider.js": "^2.3.0"
+  }
+}

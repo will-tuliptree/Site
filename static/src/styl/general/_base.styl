@@ -1,0 +1,185 @@
+// ----------------------------
+// BASE - elements that don't have classes or IDs
+// ----------------------------
+img
+	width 100%
+	max-width 100%
+	height auto
+	overflow hidden
+
+html
+	margin 0
+	padding 0
+	font-size $font-size-base
+	height initial !important
+	min-height 100%
+	// momentum scrolling for iOS
+	overflow-y scroll /* has to be scroll, not auto */
+	-webkit-overflow-scrolling touch
+
+	// proper font weight and smoothing rendering
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+
+	// ie scroll bar overlay
+	-ms-overflow-style scrollbar
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+	only screen and ( min-device-pixel-ratio: 1.25),
+	only screen and ( min-resolution: 200dpi),
+	only screen and ( min-resolution: 1.25dppx)
+		-webkit-font-smoothing subpixel-antialiased
+		-moz-osx-font-smoothing grayscale
+	/*
+	@media $phone-down
+		overflow-y hidden
+		height 100% */
+
+
+main
+
+
+h1
+h2
+h3
+h4
+h5
+h6
+p
+li
+a
+	font-family $font-regular
+	font-weight $weight-regular
+	margin 0
+
+a
+	color $primaryTextColor
+	&:hover
+	&:focus
+		text-decoration none
+
+body
+	font-size $font-size-base
+	font-family $font-regular
+	line-height 1.45
+	position relative
+	font-style normal
+	overflow hidden
+	height 100%
+
+p
+	margin-top 0
+	font-size 4.063vw
+	line-height 7.34vw
+	color $tertiaryTextColor
+	@media $tablet-up
+		font-size 15px
+		line-height 20px
+	@media $desktop-up
+		font-size 15px
+		line-height 20px
+	@media $desktop-large-up
+		font-size 15px
+		line-height 20px
+
+
+
+ul
+ol
+	color $primaryTextColor
+	padding 0
+	margin 0
+
+
+
+iframe
+	display block // remove whitespace under iframe
+
+select
+	-moz-appearance none
+	-webkit-appearance none
+
+	&::-ms-expand
+		display none
+
+:focus
+	outline none !important
+
+section
+	padding-top 13.125vw
+	padding-bottom 13.125vw
+	padding-left 7.19vw
+	padding-right 7.19vw
+	@media $tablet-up
+		padding-top 4.25vw
+		padding-bottom 4.25vw
+		padding-left 6.5%
+		padding-right 6.5%
+//
+// h1
+// 	//font-weight $weight-extra-bold
+// 	font-size 7.8125vw
+// 	line-height 8.59vw
+// 	//color $secondaryTextColor
+// 	@media $tablet-up
+// 		font-size 25px
+// 		line-height 30px
+// 	@media $desktop-up
+// 		font-size 35px
+// 		line-height 40px
+// 	@media $desktop-large-up
+// 		font-size 35px
+// 		line-height 40px
+//
+//
+// h2
+// 	//font-weight $weight-semi-bold
+// 	//font-style italic
+// 	font-size 5.5vw
+// 	//color $secondaryTextColor
+// 	@media $tablet-up
+// 		font-size 40px
+// 	@media $desktop-up
+// 		font-size 50px
+// 	@media $desktop-large-up
+// 		font-size 61px
+//
+//
+// h3
+// 	//font-weight $weight-extra-bold
+// 	font-size 6.25vw
+// 	text-align center
+// 	//text-transform uppercase
+// 	//color $tertiaryTextColor
+// //	margin-bottom 4.378vw
+// 	@media $tablet-up
+// 		font-size 41px
+// 		margin-bottom 2.604vw
+//
+// h4
+// 	font-weight $weight-semi-bold
+// 	font-size 4.69vw
+// 	line-height 7.34vw
+// 	color $tertiaryTextColor
+// 	@media $tablet-up
+// 		font-size 28px
+// 		line-height 28px
+// 	@media $desktop-up
+// 		font-size 30px
+// 		line-height 30px
+// 	@media $desktop-large-up
+// 		font-size 34px
+// 		line-height 34px
+//
+// h5
+// 	font-weight $weight-bold
+// 	font-size 5vw
+// 	line-height 6.875vw
+// 	color $tertiaryTextColor
+// 	text-transform uppercase
+// 	@media $tablet-up
+// 		font-size 22px
+// 		line-height 30px
+// 	@media $desktop-up
+// 		font-size 32px
+// 		line-height 44px

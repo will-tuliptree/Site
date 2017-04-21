@@ -1,0 +1,320 @@
+.device
+.device:after
+.device:before
+    display block
+
+.device
+    position fixed
+    bottom 0
+    left 0
+    z-index 99999
+    padding 10px
+    background #000
+    color #fff
+    font-size 12px
+    font-weight 700
+    line-height 1.3
+    text-transform uppercase
+
+.device:after
+    @media $tablet-down
+        content "tablet \2193"
+    @media $phone-down
+        content "phone \2193"
+    @media $tablet-up
+        content "tablet \2191"
+    @media $desktop-up
+        content "desktop \2191"
+    @media $desktop-large-up
+        content "desktop-large \2191"
+
+@media all and (-webkit-min-device-pixel-ratio:1.5)
+    .device
+        padding 10px 5px 3px 8px
+
+        &:before
+            content 'retina'
+            font-size 7px
+            font-weight 700
+            letter-spacing 7.5px
+            line-height 1.1
+            color red
+
+// bootstrap responsive image additions
+.img-responsive
+	width 100%
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden
+	border 0
+	clip rect(0 0 0 0)
+	height 1px
+	margin -1px
+	overflow hidden
+	padding 0
+	position absolute
+	width 1px
+	opacity 0.1
+
+.col-centered
+	float none
+	margin 0 auto
+
+.col-text-centered
+    text-align left
+    @media $tablet-up
+        text-align center
+
+.vertical-align
+	display flex
+	align-items center
+
+.inline-block
+	display inline-block
+
+// Table elements
+.table
+	display table
+.table-row
+	display table-row
+.table-cell
+	display table-cell
+
+// SPACING
+.margin-1
+	margin 16px
+
+.margin-2
+    margin 32px
+
+.margin-3
+    margin 48px
+
+.margin-4
+    margin 64px
+
+.margin-5
+    margin 80px
+
+.t-margin-1
+	margin-top 16px
+
+.t-margin-2
+	margin-top 32px
+
+.t-margin-3
+	margin-top 48px
+
+.t-margin-4
+	margin-top 64px
+
+.t-margin-5
+	margin-top 80px
+
+.b-margin-1
+	margin-bottom 16px
+
+.b-margin-2
+	margin-bottom 32px
+
+.b-margin-3
+	margin-bottom 48px
+
+.b-margin-4
+	margin-bottom 64px
+
+.b-margin-5
+	margin-bottom 80px
+
+.r-margin-1
+	margin-right 16px
+
+.r-margin-2
+	margin-right 32px
+
+.r-margin-3
+	margin-right 48px
+
+.r-margin-4
+	margin-right 64px
+
+.r-margin-5
+	margin-right 80px
+
+.l-margin-1
+    margin-left 16px
+
+.l-margin-2
+	margin-left 32px
+
+.l-margin-3
+	margin-left 48px
+
+.l-margin-4
+	margin-left 64px
+
+.l-margin-5
+	margin-left 80px
+
+.padding-1
+	padding 16px
+
+.padding-2
+    padding 32px
+
+.padding-3
+    padding 48px
+
+.padding-4
+    padding 64px
+
+.padding-5
+    padding 80px
+
+.t-padding-1
+	padding-top 16px
+
+.t-padding-2
+	padding-top 32px
+
+.t-padding-3
+	padding-top 48px
+
+.t-padding-4
+	padding-top 64px
+
+.t-padding-5
+	padding-top 80px
+
+.b-padding-1
+	padding-bottom 16px
+
+.b-padding-2
+	padding-bottom 32px
+
+.b-padding-3
+	padding-bottom 48px
+
+.b-padding-4
+	padding-bottom 64px
+
+.b-padding-5
+	padding-bottom 80px
+
+.r-padding-1
+	padding-right 16px
+
+.r-padding-2
+	padding-right 32px
+
+.r-padding-3
+	padding-right 48px
+
+.r-padding-4
+	padding-right 64px
+
+.r-padding-5
+	padding-right 80px
+
+.l-padding-1
+    padding-left 16px
+
+.l-padding-2
+	padding-left 32px
+
+.l-padding-3
+	padding-left 48px
+
+.l-padding-4
+	padding-left 64px
+
+.l-padding-5
+	padding-left 80px
+
+// Alignment
+.text-left
+	text-align left
+.text-right
+	text-align right
+.text-center
+	text-align center
+.text-justify
+	text-align justify
+.text-nowrap
+	white-space nowrap
+
+// Text Transformation
+.text-lowercase
+	text-transform lowercase
+.text-uppercase
+	text-transform uppercase
+.text-capitalize
+	text-transform capitalize
+.text-italic
+    font-style italic
+
+//Images
+.restrict-image-height
+    max-height 100%
+
+.force-image-height
+    height 100%
+
+//Padding and margin overrides
+.nopadding
+    padding 0
+
+.no-t-padding
+    padding-top 0
+
+.no-r-padding
+    padding-right 0
+
+.no-b-padding
+    padding-bottom 0
+
+.no-l-padding
+    padding-left 0
+
+.nomargin
+    margin 0
+
+.no-t-margin
+    margin-top 0
+
+.no-r-margin
+    margin-right 0
+
+.no-b-margin
+    margin-bottom 0
+
+.no-l-margin
+    margin-left 0
+
+.row-eq-height
+    @media $tablet-up
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+
+.position-relative
+    position relative
+
+.position-inherit
+    position inherit
+
+.position-absolute
+    position absolute
+
+.distribute-horizontally
+    display inline-block
+    width 100%
+
+.float-left
+    float left
+
+.float-right
+    float right
