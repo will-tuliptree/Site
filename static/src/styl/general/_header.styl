@@ -1,7 +1,26 @@
 nav
-  ul
+  padding 15px 0
+  .nav-item-container
     text-align center
-    li
+    position relative
+    @media $tablet-up
       display inline-block
-      img
-        width 25px
+    .nav-item
+      display inline-block
+      padding-right 15px
+      @media $desktop-up
+        padding-right 15px
+      a
+        font-size 2.8vw
+        padding-left 1vw
+        @media $tablet-up
+          font-size 22px
+          padding-left 0
+      .nav-logo
+        width 6.5vw
+        @media $tablet-up
+          width 35px
+  #nav-signUp
+    position absolute
+    top 0
+    right -91px

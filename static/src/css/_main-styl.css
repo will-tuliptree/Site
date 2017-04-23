@@ -113,14 +113,50 @@ section {
     padding-right: 6.5%;
   }
 }
-nav ul {
+nav {
+  padding: 15px 0;
+  padding: 0.9375rem 0;
+}
+nav .nav-item-container {
   text-align: center;
+  position: relative;
 }
-nav ul li {
+@media screen and (min-width: 48em) {
+  nav .nav-item-container {
+    display: inline-block;
+  }
+}
+nav .nav-item-container .nav-item {
   display: inline-block;
+  padding-right: 15px;
 }
-nav ul li img {
-  width: 25px;
+@media screen and (min-width: 62em) {
+  nav .nav-item-container .nav-item {
+    padding-right: 15px;
+  }
+}
+nav .nav-item-container .nav-item a {
+  font-size: 2.8vw;
+  padding-left: 1vw;
+}
+@media screen and (min-width: 48em) {
+  nav .nav-item-container .nav-item a {
+    font-size: 22px;
+    padding-left: 0;
+  }
+}
+nav .nav-item-container .nav-item .nav-logo {
+  width: 6.5vw;
+}
+@media screen and (min-width: 48em) {
+  nav .nav-item-container .nav-item .nav-logo {
+    width: 35px;
+  }
+}
+nav #nav-signUp {
+  position: absolute;
+  top: 0;
+  right: -91px;
 }
 @font-face {
   font-family: "Avenir-Book";
@@ -500,6 +536,9 @@ nav ul li img {
 }
 .float-right {
   float: right;
+}
+.text-center {
+  text-align: center;
 }
 .home {
   color: $homePageColor;
