@@ -1,5 +1,8 @@
-nav
+#nav
+  display none
   padding 15px 0
+  @media $tablet-up
+    display block
   .nav-item-container
     text-align center
     position relative
@@ -7,7 +10,6 @@ nav
       display inline-block
     .nav-item
       display inline-block
-      padding-right 15px
       @media $desktop-up
         padding-right 15px
       a
@@ -23,4 +25,29 @@ nav
   #nav-signUp
     position absolute
     top 0
-    right -91px
+    @media $tablet-up
+      right -91px
+
+#mobile-nav
+  @media $tablet-up
+    display none
+.mobile-nav-active
+  background-color $tuliptree-Aqua
+  height 100vh
+.mobile-nav-wrapper
+  padding-left 15px
+  list-style-type none
+  li
+    padding 10px 0
+    &:hover
+      background-color $tuliptree-Navy
+      a
+        color #fff
+    a
+      padding-left 15px
+.nav-hide
+  height 0
+  opacity 0
+  li, a
+    height 0
+    opacity 0

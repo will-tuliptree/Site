@@ -113,50 +113,100 @@ section {
     padding-right: 6.5%;
   }
 }
-nav {
+#nav {
+  display: none;
   padding: 15px 0;
   padding: 0.9375rem 0;
 }
-nav .nav-item-container {
+@media screen and (min-width: 48em) {
+  #nav {
+    display: block;
+  }
+}
+#nav .nav-item-container {
   text-align: center;
   position: relative;
 }
 @media screen and (min-width: 48em) {
-  nav .nav-item-container {
+  #nav .nav-item-container {
     display: inline-block;
   }
 }
-nav .nav-item-container .nav-item {
+#nav .nav-item-container .nav-item {
   display: inline-block;
-  padding-right: 15px;
 }
 @media screen and (min-width: 62em) {
-  nav .nav-item-container .nav-item {
+  #nav .nav-item-container .nav-item {
     padding-right: 15px;
   }
 }
-nav .nav-item-container .nav-item a {
+#nav .nav-item-container .nav-item a {
   font-size: 2.8vw;
   padding-left: 1vw;
 }
 @media screen and (min-width: 48em) {
-  nav .nav-item-container .nav-item a {
+  #nav .nav-item-container .nav-item a {
     font-size: 22px;
     padding-left: 0;
   }
 }
-nav .nav-item-container .nav-item .nav-logo {
+#nav .nav-item-container .nav-item .nav-logo {
   width: 6.5vw;
 }
 @media screen and (min-width: 48em) {
-  nav .nav-item-container .nav-item .nav-logo {
+  #nav .nav-item-container .nav-item .nav-logo {
     width: 35px;
   }
 }
-nav #nav-signUp {
+#nav #nav-signUp {
   position: absolute;
   top: 0;
-  right: -91px;
+}
+@media screen and (min-width: 48em) {
+  #nav #nav-signUp {
+    right: -91px;
+  }
+}
+@media screen and (min-width: 48em) {
+  #mobile-nav {
+    display: none;
+  }
+}
+.mobile-nav-active {
+  background-color: #9debde;
+  height: 100vh;
+}
+.mobile-nav-wrapper {
+  padding-left: 15px;
+  list-style-type: none;
+}
+.mobile-nav-wrapper li {
+  padding: 10px 0;
+  padding: 0.625rem 0;
+}
+.mobile-nav-wrapper li:hover {
+  background-color: #021b4f;
+}
+.mobile-nav-wrapper li:hover a {
+  color: #fff;
+}
+.mobile-nav-wrapper li a {
+  padding-left: 15px;
+}
+.nav-hide {
+  height: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  zoom: 1;
+}
+.nav-hide li,
+.nav-hide a {
+  height: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  zoom: 1;
 }
 @font-face {
   font-family: "Avenir-Book";
