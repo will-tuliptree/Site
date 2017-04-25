@@ -99,20 +99,6 @@ select::-ms-expand {
 :focus {
   outline: none !important;
 }
-section {
-  padding-top: 13.125vw;
-  padding-bottom: 13.125vw;
-  padding-left: 7.19vw;
-  padding-right: 7.19vw;
-}
-@media screen and (min-width: 48em) {
-  section {
-    padding-top: 4.25vw;
-    padding-bottom: 4.25vw;
-    padding-left: 6.5%;
-    padding-right: 6.5%;
-  }
-}
 #nav {
   display: none;
   padding: 15px 0;
@@ -135,18 +121,24 @@ section {
 #nav .nav-item-container .nav-item {
   display: inline-block;
 }
+@media screen and (min-width: 48em) {
+  #nav .nav-item-container .nav-item {
+    padding-right: 30px;
+  }
+}
 @media screen and (min-width: 62em) {
   #nav .nav-item-container .nav-item {
-    padding-right: 15px;
+    padding-right: 30px;
   }
 }
 #nav .nav-item-container .nav-item a {
   font-size: 2.8vw;
   padding-left: 1vw;
+  font-family: DINAlternate-Bold;
 }
 @media screen and (min-width: 48em) {
   #nav .nav-item-container .nav-item a {
-    font-size: 22px;
+    font-size: 18px;
     padding-left: 0;
   }
 }
@@ -161,6 +153,9 @@ section {
 #nav #nav-signUp {
   position: absolute;
   top: 0;
+}
+#nav #nav-signUp a {
+  color: #9debde;
 }
 @media screen and (min-width: 48em) {
   #nav #nav-signUp {
@@ -215,8 +210,13 @@ section {
 }
 @font-face {
   font-family: "Gotham-Book";
-  src: url("/fonts/Avenir/Gotham-Book.eot?#iefix");
-  src: url("/fonts/Avenir/Gotham-Book.eot?#iefix") format("eot"), url("/fonts/Avenir/Gotham-Book.woff2") format("woff2"), url("/fonts/Avenir/Gotham-Book.woff") format("woff"), url("/fonts/Avenir/Gotham-Book.ttf") format("truetype");
+  src: url("/fonts/Gotham/Gotham-Book.eot?#iefix");
+  src: url("/fonts/Gotham/Gotham-Book.eot?#iefix") format("eot"), url("/fonts/Avenir/Gotham-Book.woff2") format("woff2"), url("/fonts/Avenir/Gotham-Book.woff") format("woff"), url("/fonts/Avenir/Gotham-Book.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DINAlternate-Bold";
+  src: url("/fonts/DIN/DINAlternate-Bold.eot?#iefix");
+  src: url("/fonts/DIN/DINAlternate-Bold.eot?#iefix") format("eot"), url("/fonts/Avenir/DINAlternate-Bold.woff2") format("woff2"), url("/fonts/Avenir/DINAlternate-Bold.woff") format("woff"), url("/fonts/Avenir/DINAlternate-Bold.ttf") format("truetype");
 }
 .device,
 .device:after,
@@ -595,4 +595,35 @@ section {
 }
 .home p {
   color: $homePageColor;
+}
+.container-slant {
+  padding-top: 60px;
+}
+.main-container {
+  background: #00bcd4;
+  position: relative;
+}
+.main-container:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -150px;
+  width: 100%;
+  height: 240px;
+  background: #00bcd4;
+  -webkit-transform: skewY(7.5deg);
+  -moz-transform: skewY(7.5deg);
+  -o-transform: skewY(7.5deg);
+  -ms-transform: skewY(7.5deg);
+  transform: skewY(7.5deg);
+  -webkit-backface-visibility: hidden;
+}
+.slant {
+  margin: 10px auto;
+  margin: 0.625rem auto;
+  padding: 0 20px;
+  padding: 0 1.25rem;
+  padding-bottom: 10px;
+  position: relative;
+  max-width: 600px;
 }

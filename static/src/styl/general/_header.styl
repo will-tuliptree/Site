@@ -10,13 +10,16 @@
       display inline-block
     .nav-item
       display inline-block
+      @media $tablet-up
+        padding-right 30px
       @media $desktop-up
-        padding-right 15px
+        padding-right 30px
       a
         font-size 2.8vw
         padding-left 1vw
+        font-family DINAlternate-Bold
         @media $tablet-up
-          font-size 22px
+          font-size 18px
           padding-left 0
       .nav-logo
         width 6.5vw
@@ -25,6 +28,8 @@
   #nav-signUp
     position absolute
     top 0
+    a
+      color $tuliptree-Aqua
     @media $tablet-up
       right -91px
 

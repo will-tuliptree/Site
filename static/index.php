@@ -3,6 +3,8 @@
 <body>
     <main class='home'>
       <?php include 'templates/home/module1.php'; ?>
+      <?php include 'templates/home/module2.php'; ?>
+
     </main>
 </body>
 
