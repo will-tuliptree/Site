@@ -1,3 +1,12 @@
+nav
+    position fixed
+    z-index 2
+    width 100%
+    background-color #fff
+#nav-container
+    top 0
+    height 60px
+    z-index 2
 #nav
   display none
   padding 15px 0
@@ -9,11 +18,12 @@
     @media $tablet-up
       display inline-block
     .nav-item
-      display inline-block
-      @media $tablet-up
-        padding-right 30px
-      @media $desktop-up
-        padding-right 30px
+        display inline-block
+        &:nth-child(-n+4)
+            @media $tablet-up
+                padding-right 30px
+            @media $desktop-up
+                padding-right 30px
       a
         font-size 2.8vw
         padding-left 1vw

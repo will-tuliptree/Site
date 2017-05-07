@@ -1,5 +1,5 @@
 <header id="header">
-    <div>
+    <div id="nav-container">
       <nav id="nav">
         <div class="row text-center">
             <div class="nav-item-container">
