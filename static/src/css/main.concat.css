@@ -9428,9 +9428,18 @@ nav {
   margin: 0 auto;
   border-bottom: 10px solid #fff;
 }
+.t-header:after {
+  content: " ";
+  width: 70px;
+  margin: 0 auto;
+  display: block;
+  height: 8px;
+  background-color: #021b4f;
+  margin-top: 10px;
+}
 .summary-container {
   position: relative;
-  min-height: 470px;
+  height: 630px;
 }
 .summary-container .content {
   position: absolute;
@@ -9440,17 +9449,25 @@ nav {
   width: 100%;
 }
 .summary-container h1 {
-  font-size: 21px;
+  font-size: 26px;
   margin-top: 25px;
-  line-height: 24px;
+  line-height: 30px;
+  font-weight: 700;
   color: #9debde;
 }
 .summary-container p {
-  margin-top: 15px;
-  line-height: 20px;
-  font-size: 18px;
+  margin-top: 25px;
+  line-height: 23px;
+  font-size: 20px;
   padding: 0 2%;
   font-style: italic;
+}
+.summary-container p:after {
+  content: "\f107";
+  display: block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 37px;
+  margin-top: 10px;
 }
 .overlay:before {
   background-color: rgba(152,157,174,0.7);
@@ -9460,8 +9477,8 @@ nav {
   position: absolute;
 }
 .body-logo {
-  width: 85px;
-  margin-top: 45px;
+  width: 110px;
+  margin-top: 70px;
 }
 .container-slant {
   background: #41ade5;
@@ -9515,13 +9532,48 @@ nav {
 .container-slant {
   color: #fff;
   font-family: 'Fira Sans', sans-serif;
-  padding: 20% 20px;
-  padding: 20% 1.25rem;
+  padding: 5% 20px;
+  padding: 5% 1.25rem;
   text-align: center;
 }
 @media screen and (min-width: 48em) {
   .container-slant {
     padding: 0;
   }
+}
+#about .container-slant {
+  color: #021b4f;
+  background-color: #fff;
+}
+#about .container-slant p {
+  color: #021b4f;
+  margin-top: 35px;
+  text-align: justify;
+  line-height: 24px;
+}
+#about h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+#about h3 {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 21px;
+}
+#about-list {
+  list-style-type: none;
+  padding-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+#about-list .about-stat {
+  font-size: 72px;
+  font-weight: 700;
+  color: #9debde;
+}
+#about-list .about-stat_detail {
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
 }
 
