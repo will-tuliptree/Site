@@ -5,7 +5,7 @@
             <div class="nav-item-container">
               <div class="nav-item"><a href="#"> ABOUT US</a> </div>
               <div class="nav-item"><a href="#"> OUR SERVICES </a>  </div>
-              <div class="nav-item"><a href="#"> <img class="nav-logo" src="http://placehold.it/140x100"> </a>  </div>
+              <div class="nav-item"><a href="#"> <img class="nav-logo" src="images/logo.png"> </a>  </div>
               <div class="nav-item"><a href="#"> GET A QUOTE </a>  </div>
               <div class="nav-item"><a href="#"> CONTACT US </a>  </div>
               <div class="nav-item" id="nav-signUp"><a href="#"> SIGN UP </a>  </div>
