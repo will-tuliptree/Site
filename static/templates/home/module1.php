@@ -1,6 +1,6 @@
 <section id="summary">
   <div class="summary-container">
-    <div class="overlay">
+    <div class="img-overlay">
         <img class="hidden-xs"src="images/home.jpg" />
         <img class="visible-xs" src="images/home_mobile.png" />
 

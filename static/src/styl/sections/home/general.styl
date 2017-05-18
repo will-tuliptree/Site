@@ -1,6 +1,12 @@
 .home
     p,h1
         color $secondaryTextColor
+    .absolute-content
+        position absolute
+        top 0
+        margin 0 auto
+        text-align center
+        width 100%
 
 .bold
     &:after
@@ -18,3 +24,16 @@
         height 8px
         background-color $tuliptree-Navy
         margin-top 10px
+
+.t-button
+    width 170px
+    font-size 16px
+    padding 7px 0
+    background-color transparent
+    border-color #fff
+    box-shadow none
+    color #fff
+    font-weight 600
+    &:hover,active,focus
+        background-color #fff
+        color $tuliptree-Navy

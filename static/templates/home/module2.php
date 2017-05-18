@@ -51,6 +51,6 @@
                 </li>
          </ul>
     </div>
-   </main>
+</div>
 </div>
 </section>
