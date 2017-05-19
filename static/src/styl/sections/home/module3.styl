@@ -4,6 +4,15 @@
         clip-path polygon(0 0, 100% 10%, 100% 100%, 0 100%)
         background-image url(../../images/home_mobile.png)
         background-size contain
+        &:before
+            content ''
+            position absolute
+            top 0
+            right 0
+            bottom 0
+            background-color rgba(32, 40, 66, 0.7)
+            left 0
+            opacity .6
 
     .content
         z-index 3
@@ -13,15 +22,7 @@
             text-align center
             &:after
                 background-color #fff
-            &:before
-                content ''
-                position absolute
-                top 0
-                right 0
-                bottom 0
-                background-color rgba(32, 40, 66, 0.7)
-                left 0
-                opacity .6
+
 .img-overlay
         z-index -1
         position relative

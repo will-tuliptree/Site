@@ -8920,6 +8920,8 @@ nav {
   z-index: 2;
   width: 100%;
   background-color: #fff;
+  -webkit-box-shadow: 2px 1px 1px #eaeaea;
+  box-shadow: 2px 1px 1px #eaeaea;
 }
 #nav-container {
   top: 0;
@@ -9611,18 +9613,7 @@ nav {
   -moz-background-size: contain;
   background-size: contain;
 }
-#services .content {
-  z-index: 3;
-}
-#services .content .t-header {
-  color: #fff;
-  padding-top: 120px;
-  text-align: center;
-}
-#services .content .t-header:after {
-  background-color: #fff;
-}
-#services .content .t-header:before {
+#services .services-container:before {
   content: '';
   position: absolute;
   top: 0;
@@ -9634,6 +9625,17 @@ nav {
   filter: alpha(opacity=60);
   opacity: 0.6;
   zoom: 1;
+}
+#services .content {
+  z-index: 3;
+}
+#services .content .t-header {
+  color: #fff;
+  padding-top: 120px;
+  text-align: center;
+}
+#services .content .t-header:after {
+  background-color: #fff;
 }
 .img-overlay {
   z-index: -1;
