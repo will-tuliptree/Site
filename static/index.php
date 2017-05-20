@@ -5,7 +5,7 @@
       <?php include 'templates/home/module1.php'; ?>
       <?php include 'templates/home/module2.php'; ?>
       <?php include 'templates/home/module3.php'; ?>
-
+      <?php include 'templates/home/module4.php'; ?>
 
     </main>
 </body>

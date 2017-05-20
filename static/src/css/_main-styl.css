@@ -624,6 +624,9 @@ nav {
   margin: 0 auto;
   border-bottom: 10px solid #fff;
 }
+.t-header {
+  text-align: center;
+}
 .t-header:after {
   content: " ";
   width: 70px;
@@ -650,6 +653,10 @@ nav {
 .t-button focus {
   background-color: #fff;
   color: #021b4f;
+}
+.img-overlay {
+  z-index: -1;
+  position: relative;
 }
 .summary-container {
   position: relative;
@@ -794,27 +801,16 @@ nav {
 }
 #services .services-container {
   position: relative;
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 17vw, 100% 100%, 0 100%);
   background-image: url("../../images/home_mobile.png");
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
 }
-#services .services-container:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(32,40,66,0.7);
-  left: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=60);
-  opacity: 0.6;
-  zoom: 1;
-}
 #services .content {
-  z-index: 3;
+  z-index: 1;
+  background-color: rgba(32,40,66,0.7);
+  padding-bottom: 60px;
 }
 #services .content .t-header {
   color: #fff;
@@ -823,13 +819,6 @@ nav {
 }
 #services .content .t-header:after {
   background-color: #fff;
-}
-.img-overlay {
-  z-index: -1;
-  position: relative;
-}
-.img-overlay img {
-  position: absolute;
 }
 .services-list_container .services-list .services-list_item {
   list-style-type: none;
@@ -859,4 +848,41 @@ nav {
 }
 .services-list_container .services-list .services-list_item button {
   margin-top: 30px;
+}
+#cu-services .cu-services_container .content {
+  text-align: center;
+  padding-top: 120px;
+}
+#cu-services .cu-services_container .content .cu-services_description {
+  color: #021b4f;
+  margin-top: 40px;
+}
+#cu-services .cu-services_container .t-header {
+  color: #021b4f;
+}
+.cu-services_list_container {
+  margin-top: 40px;
+}
+.cu-services_list_container .cu-services_list_item {
+  list-style-type: none;
+  width: 50%;
+}
+.cu-services_list_container .cu-services_list_item .list-item_content {
+  width: 80%;
+  border-top: 5px solid #021b4f;
+}
+.cu-services_list_container .cu-services_list_item h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.cu-services_list_container .cu-services_list_item summary {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.cu-services_list_container .cu-services_list_item button {
+  margin-top: 10px;
+  background-color: #021b4f;
+  color: #fff;
+  padding: 2px 10px;
+  padding: 0.125rem 0.625rem;
 }

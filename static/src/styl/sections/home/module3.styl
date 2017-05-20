@@ -1,21 +1,14 @@
 #services
     .services-container
         position relative
-        clip-path polygon(0 0, 100% 10%, 100% 100%, 0 100%)
+        clip-path polygon(0 0, 100% 17vw, 100% 100%, 0 100%)
         background-image url(../../images/home_mobile.png)
         background-size contain
-        &:before
-            content ''
-            position absolute
-            top 0
-            right 0
-            bottom 0
-            background-color rgba(32, 40, 66, 0.7)
-            left 0
-            opacity .6
 
     .content
-        z-index 3
+        z-index 1
+        background-color rgba(32, 40, 66, 0.7)
+        padding-bottom 60px
         .t-header
             color #fff
             padding-top 120px
@@ -23,11 +16,7 @@
             &:after
                 background-color #fff
 
-.img-overlay
-        z-index -1
-        position relative
-        img
-            position absolute
+
 
 .services-list_container
     .services-list
