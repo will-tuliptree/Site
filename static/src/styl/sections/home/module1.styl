@@ -1,6 +1,7 @@
 .summary-container
     position relative
     height 630px
+    background-color rgba(32,40,66,0.7)
     .content
         position absolute
         top 0
@@ -13,18 +14,20 @@
         line-height 30px
         font-weight 700
         color $tuliptree-Aqua
-    p
+    .down-arrow
         margin-top 25px
-        line-height 23px
-        font-size 20px
-        padding 0 2%
-        font-style italic
         &:after
             content "\f107"
             display block
             font normal normal normal 14px/1 FontAwesome
             font-size 37px
             margin-top 10px
+    p
+        margin-top 25px
+        line-height 23px
+        font-size 20px
+        padding 0 2%
+        font-style italic
 
 
     //background-image url("../../../images/home.jpg")

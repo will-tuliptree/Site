@@ -661,6 +661,7 @@ nav {
 .summary-container {
   position: relative;
   height: 630px;
+  background-color: rgba(32,40,66,0.7);
 }
 .summary-container .content {
   position: absolute;
@@ -676,19 +677,22 @@ nav {
   font-weight: 700;
   color: #9debde;
 }
+.summary-container .down-arrow {
+  margin-top: 25px;
+}
+.summary-container .down-arrow:after {
+  content: "\f107";
+  display: block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 37px;
+  margin-top: 10px;
+}
 .summary-container p {
   margin-top: 25px;
   line-height: 23px;
   font-size: 20px;
   padding: 0 2%;
   font-style: italic;
-}
-.summary-container p:after {
-  content: "\f107";
-  display: block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: 37px;
-  margin-top: 10px;
 }
 .img-overlay:before {
   background-color: rgba(32,40,66,0.7);
