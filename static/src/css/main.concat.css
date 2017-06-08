@@ -8956,14 +8956,6 @@ nav {
     padding-right: 30px;
   }
 }
-@media screen and (min-width: 62em) {
-  #nav .nav-item-container .nav-item:nth-child(-n+4) {
-    padding-right: 30px;
-  }
-}
-#nav .nav-item-container .nav-item:hover .nav-item_box {
-  display: none;
-}
 #nav .nav-item-container a {
   font-size: 2.8vw;
   padding-left: 1vw;

@@ -8,7 +8,7 @@
               <div class="nav-item"><a href="#"> <img class="nav-logo" src="images/logo.png"> </a>  </div>
               <div class="nav-item">
                   <a href="#"> GET A QUOTE </a>
-                  <div class="nav-item_box">
+                  <div class="nav-item_box hidden">
                       <a href="#"> EMR </a>
                       <span class="border"> </span>
                       <a href="#"> CLAIMS REPRESENTATION </a>
