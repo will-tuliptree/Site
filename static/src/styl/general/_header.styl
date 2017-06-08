@@ -20,11 +20,12 @@ nav
       display inline-block
     .nav-item
         display inline-block
+        position relative
         &:nth-child(-n+4)
             @media $tablet-up
                 padding-right 30px
             @media $desktop-up
-                padding-right 30px
+
       a
         font-size 2.8vw
         padding-left 1vw
@@ -36,6 +37,26 @@ nav
         width 6.5vw
         @media $tablet-up
           width 35px
+  .nav-item_box
+    position absolute
+    background-color $tuliptree-Navy
+    right 10px
+    width 150px
+    height 60px
+    a
+        font-size 12px
+        display block
+        color #fff
+        &:nth-child(1)
+            margin-top 10px
+        &:hover,active,focus
+          color $tuliptree-Aqua
+
+    .border
+        display block
+        border-top 1px solid #fff
+        width 115px
+        margin 0 auto 5px
   #nav-signUp
     position absolute
     top 5px

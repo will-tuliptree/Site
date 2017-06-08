@@ -8949,6 +8949,7 @@ nav {
 }
 #nav .nav-item-container .nav-item {
   display: inline-block;
+  position: relative;
 }
 @media screen and (min-width: 48em) {
   #nav .nav-item-container .nav-item:nth-child(-n+4) {
@@ -8959,6 +8960,9 @@ nav {
   #nav .nav-item-container .nav-item:nth-child(-n+4) {
     padding-right: 30px;
   }
+}
+#nav .nav-item-container .nav-item:hover .nav-item_box {
+  display: none;
 }
 #nav .nav-item-container a {
   font-size: 2.8vw;
@@ -8978,6 +8982,33 @@ nav {
   #nav .nav-item-container .nav-logo {
     width: 35px;
   }
+}
+#nav .nav-item_box {
+  position: absolute;
+  background-color: #021b4f;
+  right: 10px;
+  width: 150px;
+  height: 60px;
+}
+#nav .nav-item_box a {
+  font-size: 12px;
+  display: block;
+  color: #fff;
+}
+#nav .nav-item_box a:nth-child(1) {
+  margin-top: 10px;
+}
+#nav .nav-item_box a:hover,
+#nav .nav-item_box a active,
+#nav .nav-item_box a focus {
+  color: #9debde;
+}
+#nav .nav-item_box .border {
+  display: block;
+  border-top: 1px solid #fff;
+  width: 115px;
+  margin: 0 auto 5px;
+  margin: 0 auto 0.3125rem;
 }
 #nav #nav-signUp {
   position: absolute;
@@ -9439,6 +9470,7 @@ nav {
 }
 .t-header {
   text-align: center;
+  font-size: 24px;
 }
 .t-header:after {
   content: " ";
@@ -9450,38 +9482,53 @@ nav {
   margin-top: 10px;
 }
 .t-button {
-  width: 170px;
-  font-size: 16px;
-  padding: 7px 0;
-  padding: 0.4375rem 0;
+  width: 115px;
+  font-size: 13px;
+  padding: 0;
   background-color: transparent;
   border-color: #fff;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #fff;
+  color: #021b4f;
   font-weight: 600;
 }
 .t-button:hover,
 .t-button active,
 .t-button focus {
-  background-color: #fff;
-  color: #021b4f;
+  background-color: #021b4f;
+  color: #fff;
+}
+.t-button-aqua {
+  display: block;
+  background-color: #9debde;
+  border-color: #9debde;
+  margin: 0 auto 15px;
+  margin: 0 auto 0.9375rem;
+  width: 225px;
 }
 .img-overlay {
   z-index: -1;
   position: relative;
 }
+.list-item_container li {
+  list-style-type: none;
+}
+.list-item_container li:before {
+  content: "\25CF";
+}
 .summary-container {
   position: relative;
-  height: 630px;
-  background-color: rgba(32,40,66,0.7);
+  background-image: url("../../images/home_mobile.png");
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
 }
 .summary-container .content {
-  position: absolute;
   top: 0;
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  background-color: rgba(32,40,66,0.7);
 }
 .summary-container h1 {
   font-size: 26px;
@@ -9491,7 +9538,8 @@ nav {
   color: #9debde;
 }
 .summary-container .down-arrow {
-  margin-top: 25px;
+  margin-top: 60px;
+  color: #fff;
 }
 .summary-container .down-arrow:after {
   content: "\f107";
@@ -9500,12 +9548,25 @@ nav {
   font-size: 37px;
   margin-top: 10px;
 }
-.summary-container p {
+.summary-container .t-header {
+  padding-top: 80px;
+  color: #fff;
+}
+.summary-container .t-header:after {
+  background-color: #fff;
+}
+.summary-container .summary-text_wrapper {
   margin-top: 25px;
+  padding-bottom: 40px;
+}
+.summary-container p {
   line-height: 23px;
   font-size: 20px;
   padding: 0 2%;
   font-style: italic;
+}
+.summary-container p:nth-child(2) {
+  margin-top: 20px;
 }
 .img-overlay:before {
   background-color: rgba(32,40,66,0.7);
@@ -9522,17 +9583,7 @@ nav {
   background: #41ade5;
   position: relative;
   z-index: 1;
-}
-.container-slant:before {
-  background: inherit;
-  content: '';
-  display: block;
-  height: 50%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  -webkit-backface-visibility: hidden;
+
 }
 .container-slant:before {
   top: 0;
@@ -9618,24 +9669,18 @@ nav {
 }
 #services .services-container {
   position: relative;
-  clip-path: polygon(0 0, 100% 17vw, 100% 100%, 0 100%);
-  background-image: url("../../images/home_mobile.png");
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
 }
 #services .content {
   z-index: 1;
-  background-color: rgba(32,40,66,0.7);
   padding-bottom: 60px;
 }
 #services .content .t-header {
-  color: #fff;
+  color: #021b4f;
   padding-top: 120px;
   text-align: center;
 }
 #services .content .t-header:after {
-  background-color: #fff;
+  background-color: #021b4f;
 }
 .services-list_container .services-list .services-list_item {
   list-style-type: none;
@@ -9643,28 +9688,129 @@ nav {
 }
 .services-list_container .services-list .services-list_item .img-container {
   width: 70px;
-  margin: 60px auto 0;
+  margin: 35px auto 0;
 }
 .services-list_container .services-list .services-list_item h3 {
   margin-top: 20px;
-  color: #fff;
+  color: #021b4f;
   font-weight: 600;
   font-size: 21px;
 }
 .services-list_container .services-list .services-list_item summary {
   margin-top: 10px;
-  color: #fff;
+  color: #021b4f;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
 }
 .services-list_container .services-list .services-list_item p {
   margin-top: 10px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 24px;
   font-size: 16px;
+  color: #021b4f;
 }
 .services-list_container .services-list .services-list_item button {
   margin-top: 30px;
+  border-color: #021b4f;
+}
+.services-list_container .services-list .services-list_item .list-item_container {
+  margin-top: 25px;
+}
+#claim-rep {
+  padding-top: 40px;
+}
+#claim-rep .img-container {
+  width: 90px;
+}
+#mod-reviews .mod-reviews_container {
+  background-image: url("../../images/home_mobile.png");
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+#mod-reviews .mod-reviews_container .content {
+  text-align: center;
+  padding: 60px 0 40px 0;
+  padding: 3.75rem 0 2.5rem 0;
+  background-color: rgba(32,40,66,0.7);
+}
+#mod-reviews .mod-reviews_container .content .mod-reviews_description {
+  margin-top: 40px;
+  width: 70%;
+  margin: 40px auto 0;
+}
+#mod-reviews .mod-reviews_container .t-header {
+  color: #fff;
+}
+#mod-reviews .mod-reviews_container .t-header:after {
+  background-color: #fff;
+}
+#mod-reviews .mod-reviews_container summary {
+  color: #fff;
+}
+@media screen and (min-width: 62em) {
+  #mod-reviews .mod-reviews_container summary {
+    text-align: left;
+  }
+}
+#mod-reviews .mod-reviews_container .t-button {
+  display: block;
+  background-color: #9debde;
+  border-color: #9debde;
+  margin: 0 auto 15px;
+  margin: 0 auto 0.9375rem;
+  width: 225px;
+}
+#mod-reviews .mod-reviews_container .mod-reviews_buttons {
+  margin-top: 25px;
+}
+#mod-reviews .mod-review_steps {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  margin-top: 30px;
+}
+#mod-reviews .mod-review_steps span {
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  font-weight: 900;
+}
+#mod-reviews .mod-review_steps .img-container {
+  height: 100px;
+}
+#mod-reviews .mod-review_stats {
+  margin-top: 20px;
+}
+#mod-reviews .mod-review_stats .stat {
+  color: #9debde;
+  font-size: 45px;
+  font-weight: 900;
+  color: $tuliptree-aqua;
+}
+#mod-reviews .mod-review_stats .stat-description {
+  width: 200px;
+  margin: 0 auto;
+}
+#mod-reviews .mod-review_stats span {
+  display: block;
+  color: #fff;
+  font-size: 12px;
+}
+#mr-you-recover img {
+  width: 90px;
+  position: relative;
+  left: 6px;
+  top: 15px;
+}
+#mr-you-sign img {
+  width: 70px;
+}
+#mr-we-process img {
+  width: 90px;
 }
 #cu-services .cu-services_container .content {
   text-align: center;
@@ -9673,6 +9819,8 @@ nav {
 #cu-services .cu-services_container .content .cu-services_description {
   color: #021b4f;
   margin-top: 40px;
+  font-size: 16px;
+  line-height: 24px;
 }
 #cu-services .cu-services_container .t-header {
   color: #021b4f;
@@ -9682,19 +9830,27 @@ nav {
 }
 .cu-services_list_container .cu-services_list_item {
   list-style-type: none;
-  width: 50%;
 }
 .cu-services_list_container .cu-services_list_item .list-item_content {
-  width: 80%;
   border-top: 5px solid #021b4f;
+  margin: 0 auto 70px;
+  margin: 0 auto 4.375rem;
+  max-width: 200px;
 }
 .cu-services_list_container .cu-services_list_item h3 {
   margin-top: 10px;
   font-size: 16px;
+  height: 34px;
 }
 .cu-services_list_container .cu-services_list_item summary {
   margin-top: 15px;
   font-size: 14px;
+  height: 130px;
+}
+@media screen and (min-width: 48em) {
+  .cu-services_list_container .cu-services_list_item summary {
+    height: 100px;
+  }
 }
 .cu-services_list_container .cu-services_list_item button {
   margin-top: 10px;

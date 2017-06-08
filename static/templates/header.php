@@ -6,7 +6,14 @@
               <div class="nav-item"><a href="#"> ABOUT US</a> </div>
               <div class="nav-item"><a href="#"> OUR SERVICES </a>  </div>
               <div class="nav-item"><a href="#"> <img class="nav-logo" src="images/logo.png"> </a>  </div>
-              <div class="nav-item"><a href="#"> GET A QUOTE </a>  </div>
+              <div class="nav-item">
+                  <a href="#"> GET A QUOTE </a>
+                  <div class="nav-item_box">
+                      <a href="#"> EMR </a>
+                      <span class="border"> </span>
+                      <a href="#"> CLAIMS REPRESENTATION </a>
+                  </div>
+              </div>
               <div class="nav-item"><a href="#"> CONTACT US </a>  </div>
               <div class="nav-item" id="nav-signUp"><a href="#"> SIGN UP </a>  </div>
 

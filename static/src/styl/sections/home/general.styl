@@ -17,6 +17,7 @@
         border-bottom 10px solid #fff
 .t-header
     text-align center
+    font-size 24px
     &:after
         content " "
         width 70px
@@ -27,18 +28,31 @@
         margin-top 10px
 
 .t-button
-    width 170px
-    font-size 16px
-    padding 7px 0
+    width 115px
+    font-size 13px
+    padding 0 0
     background-color transparent
     border-color #fff
     box-shadow none
-    color #fff
+    color $tuliptree-Navy
     font-weight 600
     &:hover,active,focus
-        background-color #fff
-        color $tuliptree-Navy
+        background-color $tuliptree-Navy
+        color #fff
 
+
+.t-button-aqua
+    display block
+    background-color $tuliptree-Aqua
+    border-color $tuliptree-Aqua
+    margin 0 auto 15px
+    width 225px
 .img-overlay
         z-index -1
         position relative
+
+.list-item_container
+    li
+        list-style-type none
+        &:before
+            content "\25CF"
