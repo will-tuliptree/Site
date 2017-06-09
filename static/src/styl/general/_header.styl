@@ -21,6 +21,12 @@ nav
     .nav-item
         display inline-block
         position relative
+        &:hover
+            z-index 2
+            .nav-item_box
+                z-index -1
+                display block
+
         &:nth-child(-n+4)
             @media $tablet-up
                 padding-right 30px
@@ -29,6 +35,7 @@ nav
         font-size 2.8vw
         padding-left 1vw
         font-family DINAlternate-Bold
+        z-index 2
         @media $tablet-up
           font-size 18px
           padding-left 0
@@ -38,24 +45,27 @@ nav
           width 35px
   .nav-item_box
     position absolute
-    background-color $tuliptree-Navy
     right 10px
     width 150px
-    height 60px
+    display none
+    height 100px
+    top 0
+    z-index -1
     a
         font-size 12px
         display block
         color #fff
-        &:nth-child(1)
-            margin-top 10px
         &:hover,active,focus
           color $tuliptree-Aqua
-
     .border
         display block
         border-top 1px solid #fff
         width 115px
         margin 0 auto 5px
+    .nav-item_box_content
+        background-color $tuliptree-Navy
+        margin-top 30px
+        padding 10px 0 5px
   #nav-signUp
     position absolute
     top 5px
@@ -63,6 +73,18 @@ nav
       color $tuliptree-Aqua
     @media $tablet-up
       right -91px
+
+.sub-nav_link
+    &:after
+        content ""
+        width 115px
+        border-top 1px solid #fff
+        display block
+        margin 0 auto 5px
+    &:last-child
+        &:after
+            border none
+
 
 #mobile-nav
   @media $tablet-up

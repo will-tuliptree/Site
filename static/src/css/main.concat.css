@@ -8951,6 +8951,13 @@ nav {
   display: inline-block;
   position: relative;
 }
+#nav .nav-item-container .nav-item:hover {
+  z-index: 2;
+}
+#nav .nav-item-container .nav-item:hover .nav-item_box {
+  z-index: -1;
+  display: block;
+}
 @media screen and (min-width: 48em) {
   #nav .nav-item-container .nav-item:nth-child(-n+4) {
     padding-right: 30px;
@@ -8960,6 +8967,7 @@ nav {
   font-size: 2.8vw;
   padding-left: 1vw;
   font-family: DINAlternate-Bold;
+  z-index: 2;
 }
 @media screen and (min-width: 48em) {
   #nav .nav-item-container a {
@@ -8977,18 +8985,17 @@ nav {
 }
 #nav .nav-item_box {
   position: absolute;
-  background-color: #021b4f;
   right: 10px;
   width: 150px;
-  height: 60px;
+  display: none;
+  height: 100px;
+  top: 0;
+  z-index: -1;
 }
 #nav .nav-item_box a {
   font-size: 12px;
   display: block;
   color: #fff;
-}
-#nav .nav-item_box a:nth-child(1) {
-  margin-top: 10px;
 }
 #nav .nav-item_box a:hover,
 #nav .nav-item_box a active,
@@ -9002,6 +9009,12 @@ nav {
   margin: 0 auto 5px;
   margin: 0 auto 0.3125rem;
 }
+#nav .nav-item_box .nav-item_box_content {
+  background-color: #021b4f;
+  margin-top: 30px;
+  padding: 10px 0 5px;
+  padding: 0.625rem 0 0.3125rem;
+}
 #nav #nav-signUp {
   position: absolute;
   top: 5px;
@@ -9013,6 +9026,17 @@ nav {
   #nav #nav-signUp {
     right: -91px;
   }
+}
+.sub-nav_link:after {
+  content: "";
+  width: 115px;
+  border-top: 1px solid #fff;
+  display: block;
+  margin: 0 auto 5px;
+  margin: 0 auto 0.3125rem;
+}
+.sub-nav_link:last-child:after {
+  border: none;
 }
 @media screen and (min-width: 48em) {
   #mobile-nav {

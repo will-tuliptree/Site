@@ -4,14 +4,25 @@
         <div class="row text-center">
             <div class="nav-item-container">
               <div class="nav-item"><a href="#"> ABOUT US</a> </div>
-              <div class="nav-item"><a href="#"> OUR SERVICES </a>  </div>
+              <div class="nav-item">
+                  <a href="#"> OUR SERVICES </a>
+                  <div class="nav-item_box ">
+                      <div class="nav-item_box_content">
+                          <a class="sub-nav_link" href="#"> CLAIMS & UNDERWRITING </a>
+                          <a class="sub-nav_link" href="#"> MOD REVIEWS </a>
+                          <a class="sub-nav_link" href="#"> BROKERS </a>
+
+                    </div>
+                  </div>
+              </div>
               <div class="nav-item"><a href="#"> <img class="nav-logo" src="images/logo.png"> </a>  </div>
               <div class="nav-item">
                   <a href="#"> GET A QUOTE </a>
-                  <div class="nav-item_box hidden">
-                      <a href="#"> EMR </a>
-                      <span class="border"> </span>
-                      <a href="#"> CLAIMS REPRESENTATION </a>
+                  <div class="nav-item_box ">
+                      <div class="nav-item_box_content">
+                          <a class="sub-nav_link" href="#"> EMR </a>
+                          <a class="sub-nav_link" href="#"> CLAIMS REPRESENTATION </a>
+                    </div>
                   </div>
               </div>
               <div class="nav-item"><a href="#"> CONTACT US </a>  </div>
