@@ -10,7 +10,7 @@
                       <div class="nav-item_box_content">
                           <a class="sub-nav_link" href="#"> CLAIMS & UNDERWRITING </a>
                           <a class="sub-nav_link" href="#"> MOD REVIEWS </a>
-                          <a class="sub-nav_link" href="#"> BROKERS </a>
+                          <a class="sub-nav_link" href="#"> BROKER </a>
 
                     </div>
                   </div>
@@ -57,19 +57,11 @@ var mobileNav = document.getElementById('mobile-nav');
 var mobileNavButton = document.getElementById('mobile-nav-button');
 var mobileNavList = document.getElementById('mobile-nav-list');
 mobileNavButton.onclick = function(event) {
-  console.log(this);
   this.classList.toggle("is-active");
   mobileNav.classList.toggle("mobile-nav-active");
   mobileNavList.classList.toggle("hidden");
   mobileNavList.classList.toggle("fadeIn");
   mobileNavList.classList.toggle("fadeOut");
-
-
-
-
-
-
-
  };
 
 

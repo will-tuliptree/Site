@@ -3,7 +3,10 @@
 //get info from hidden div with id of attr
 //info = div
 //vex.dialog.alert({ unsafeMessage: div })
-//vex.dialog.alert({ unsafeMessage: "<div> hi</div>" })
+
+
+var modal = document.getElementById("modal-claims");
+//vex.dialog.alert({ unsafeMessage: modal })
 
 var navItems = document.getElementsByClassName("nav-item");
 

@@ -7,6 +7,9 @@
       <?php include 'templates/home/module4.php'; ?>
       <?php include 'templates/home/module5.php'; ?>
       <?php include 'templates/home/module8.php'; ?>
+      <div class="hidden">
+          <?php include 'templates/home/modals.php'; ?>
+      </div>
 
 
     </main>
