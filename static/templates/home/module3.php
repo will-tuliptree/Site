@@ -21,7 +21,7 @@
                           <li> NO RISK, NO FEE IF NO RECOVERY </li>
                           <li> 30-50% OF RECOVERY</li>
                       </ul>
-                      <button class="btn t-button"> LEARN MORE </button>
+                      <button class="btn t-button t-btn_modal" data-modalid="modal-claims" id="emr-btn"> LEARN MORE </button>
 
                   </li>
 
@@ -43,7 +43,7 @@
                           <li> GREATER LONG-TERM VALUE </li>
                           <li> 2-10% OF UNMODIFIED PREMIUM</li>
                       </ul>
-                      <button class="btn t-button"> LEARN MORE </button>
+                      <button class="btn t-button t-btn_modal" id="claims-btn" data-modalid="modal-claims"> LEARN MORE </button>
 
                   </li>
 

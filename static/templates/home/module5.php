@@ -16,8 +16,9 @@
                           <summary> Tell us about the accident first and let us
                           provide guidance on how to report it to your carrier
                           </summary>
-                          <button class="btn">More info</button>
+                          <button class="btn t-btn_modal" data-modalid="modal-claims">More info</button>
                     </div>
+                    <span class="number">1</span>
                   </li>
                   <li class="cu-services_list_item col-xs-6 col-sm-4">
                       <div class="list-item_content">
@@ -28,6 +29,7 @@
                           </summary>
                           <button class="btn">More info</button>
                     </div>
+                    <span class="number">2</span>
                   </li>
                   <li class="cu-services_list_item col-xs-6 col-sm-4">
                       <div class="list-item_content">

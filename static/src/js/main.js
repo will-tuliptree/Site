@@ -5,10 +5,29 @@
 //vex.dialog.alert({ unsafeMessage: div })
 
 
-var modal = document.getElementById("modal-claims");
-//vex.dialog.alert({ unsafeMessage: modal })
+/*var modalNode = document.getElementById("modal-claims").cloneNode(true);
+vex.dialog.open({
+    unsafeMessage: modalNode
 
-var navItems = document.getElementsByClassName("nav-item");
+})*/
+
+//var navItems = document.getElementsByClassName("nav-item");
+function openModal(button, id){
+    button.addEventListener("click", function( event ) {
+        var modalNode = document.getElementById(id).cloneNode(true);
+        vex.dialog.open({
+            unsafeMessage: modalNode
+            })
+
+    });
+}
+document.addEventListener("DOMContentLoaded", function(event) {
+    var btnList = document.getElementsByClassName("t-btn_modal");
+    for (var i = 0; i < btnList.length; i++) {
+        var modalId = btnList[i].dataset.modalid;
+        openModal(btnList[i], modalId);
+    }
+});
 
 /*for (var i = 0; i < navItems.length; i++) {
     var navItem = navItems[i];
