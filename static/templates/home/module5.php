@@ -40,6 +40,8 @@
                           </summary>
                           <button class="btn">More info</button>
                     </div>
+                    <span class="number">3</span>
+
                   </li>
                   <li class="cu-services_list_item col-xs-6 col-sm-4">
                       <div class="list-item_content">
@@ -49,6 +51,8 @@
                           </summary>
                           <button class="btn">More info</button>
                     </div>
+                    <span class="number">4</span>
+
                   </li>
 
                   <li class="cu-services_list_item col-xs-6 col-sm-4">
@@ -60,6 +64,7 @@
                           </summary>
                           <button class="btn">More info</button>
                     </div>
+                    <span class="number">5</span>
                   </li>
 
                   <li class="cu-services_list_item col-xs-6 col-sm-4">
@@ -71,6 +76,7 @@
                           </summary>
                           <button class="btn">More info</button>
                     </div>
+                    <span class="number">6</span>
                   </li>
               </ul>
           </div>

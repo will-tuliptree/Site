@@ -8866,6 +8866,7 @@ body {
   position: relative;
   font-style: normal;
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100%;
 }
 p {
@@ -8914,13 +8915,29 @@ select::-ms-expand {
 .content {
   padding: 0 8.3333%;
 }
+#contact-us .content {
+  padding-bottom: 50px;
+}
+#contact-us .t-header {
+  color: #021b4f;
+}
+#contact-us .contact-us_info {
+  text-align: center;
+  margin-top: 30px;
+}
+#contact-us .contact-us_info a {
+  display: block;
+}
+#contact-us .contact-us_info .nav-logo {
+  width: 35px;
+}
 nav {
   position: fixed;
   z-index: 2;
   width: 100%;
   background-color: #fff;
-  -webkit-box-shadow: 2px 1px 1px #eaeaea;
-  box-shadow: 2px 1px 1px #eaeaea;
+  -webkit-box-shadow: 2px 3px 3px #eaeaea;
+  box-shadow: 2px 3px 3px #eaeaea;
 }
 #nav-container {
   top: 0;
@@ -9546,6 +9563,9 @@ nav {
   width: 80%;
   position: relative;
 }
+.content {
+  padding-top: 70px;
+}
 .t-modal h2 {
   text-align: center;
   font-size: 20px;
@@ -9753,7 +9773,6 @@ nav {
 }
 #services .content .t-header {
   color: #021b4f;
-  padding-top: 120px;
   text-align: center;
 }
 #services .content .t-header:after {
@@ -9896,7 +9915,6 @@ nav {
 }
 #cu-services .cu-services_container .content {
   text-align: center;
-  padding-top: 120px;
 }
 #cu-services .cu-services_container .content .cu-services_description {
   color: #021b4f;
@@ -9908,10 +9926,11 @@ nav {
   color: #021b4f;
 }
 .cu-services_list_container {
-  margin-top: 110px;
+  margin-top: 60px;
 }
 .cu-services_list_container .cu-services_list_item {
   list-style-type: none;
+  margin-top: 80px;
 }
 .cu-services_list_container .cu-services_list_item .number {
   position: absolute;
@@ -9937,6 +9956,7 @@ nav {
   margin-top: 10px;
   font-size: 14px;
   height: 130px;
+  width: 205px;
 }
 @media screen and (min-width: 48em) {
   .cu-services_list_container .cu-services_list_item summary {
@@ -9949,5 +9969,65 @@ nav {
   color: #fff;
   padding: 2px 10px;
   padding: 0.125rem 0.625rem;
+}
+#neglected-policies .neglected-policies_container {
+  background-image: url("../../images/neglected-policies.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+#neglected-policies .neglected-policies_container .content {
+  text-align: center;
+  padding-bottom: 80px;
+  background-color: rgba(32,40,66,0.7);
+}
+#neglected-policies .neglected-policies_container .content .cu-services_description {
+  color: #021b4f;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+#neglected-policies .neglected-policies_container .content .np-data {
+  width: 100px;
+  height: auto;
+}
+@media screen and (min-width: 48em) {
+  #neglected-policies .neglected-policies_container .content .np-data {
+    width: 240px;
+  }
+}
+#neglected-policies .neglected-policies_container .content .np-data image {
+  width: 100px;
+  height: auto;
+}
+@media screen and (min-width: 48em) {
+  #neglected-policies .neglected-policies_container .content .np-data image {
+    width: 240px;
+  }
+}
+#neglected-policies .neglected-policies_container .t-header {
+  color: #fff;
+  word-spacing: 9999999px;
+}
+#neglected-policies .neglected-policies_container .t-header:after {
+  background-color: #fff;
+}
+.np-data_container {
+  display: inline-block;
+}
+.np-data_container:nth-child(2) {
+  margin-left: 80px;
+}
+.np-data_container:nth-child(2) .np-data {
+  position: relative;
+  bottom: 8px;
+}
+@media screen and (min-width: 48em) {
+  .np-data_container:nth-child(2) {
+    margin-left: 160px;
+  }
+}
+.np-details {
+  margin-top: 50px;
 }
 
