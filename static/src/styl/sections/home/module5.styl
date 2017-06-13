@@ -19,9 +19,13 @@
             position absolute
             top -175px
             font-size 300px
-            left 81px
+            left 4%
             z-index -2
             color #9debde
+            margin-left auto
+            margin-right auto
+            left 0
+            right 0
         .list-item_content
             border-top 5px solid $tuliptree-Navy
             margin 0 auto 70px
@@ -32,14 +36,20 @@
             word-spacing 9999999px
             margin 10px auto 0
         summary
-            margin-top 10px
+            margin 10px auto 0
             font-size 14px
             height 130px
-            width 205px
+            width 150px
             @media $tablet-up
+                margin 10px 0 0 0
                 height 100px
+                width 205px
         button
             margin-top 10px
             background-color $tuliptree-Navy
             color white
             padding 2px 10px
+            &:hover,active,focus
+                background-color #fff
+                border-color $tuliptree-Navy
+                color $tuliptree-Navy

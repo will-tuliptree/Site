@@ -38,15 +38,15 @@
           </summary>
 
           <div class="row mod-review_stats">
-              <div class="col-xs-4">
+              <div class="col-xs-12 col-sm-4" >
                   <span class="stat"> 42% </span>
                   <span class="stat-description"> of our revised claims submissions resulted in a refund for our client. </span>
               </div>
-              <div class="col-xs-4">
+              <div class="col-xs-12 col-sm-4">
                   <span class="stat"> $11k </span>
                   <span class="stat-description"> of our client's premium was recovered, on average. </span>
               </div>
-              <div class="col-xs-4">
+              <div class="col-xs-12 col-sm-4">
                   <span class="stat"> 35% </span>
                   <span class="stat-description"> of all workers' comp policies are refund-eligible. </span>
               </div>

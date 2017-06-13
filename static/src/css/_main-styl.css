@@ -718,6 +718,7 @@ nav {
 .t-button active,
 .t-button focus {
   background-color: #021b4f;
+  border-color: #021b4f;
   color: #fff;
 }
 .t-button-aqua {
@@ -752,6 +753,7 @@ nav {
 }
 .content {
   padding-top: 70px;
+  padding-bottom: 60px;
 }
 .t-modal h2 {
   text-align: center;
@@ -1054,6 +1056,13 @@ nav {
   margin: 0 auto 0.9375rem;
   width: 225px;
 }
+#mod-reviews .mod-reviews_container .t-button:hover,
+#mod-reviews .mod-reviews_container .t-button active,
+#mod-reviews .mod-reviews_container .t-button focus {
+  background-color: #021b4f;
+  border-color: #021b4f;
+  color: #fff;
+}
 #mod-reviews .mod-reviews_container .mod-reviews_buttons {
   margin-top: 25px;
 }
@@ -1080,8 +1089,10 @@ nav {
 }
 #mod-reviews .mod-review_stats .stat {
   color: #9debde;
-  font-size: 45px;
+  font-size: 80px;
+  line-height: 80px;
   font-weight: 900;
+  margin-top: 20px;
   color: $tuliptree-aqua;
 }
 #mod-reviews .mod-review_stats .stat-description {
@@ -1133,9 +1144,13 @@ nav {
   position: absolute;
   top: -175px;
   font-size: 300px;
-  left: 81px;
+  left: 4%;
   z-index: -2;
   color: #9debde;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 .cu-services_list_container .cu-services_list_item .list-item_content {
   border-top: 5px solid #021b4f;
@@ -1150,14 +1165,17 @@ nav {
   margin: 10px auto 0;
 }
 .cu-services_list_container .cu-services_list_item summary {
-  margin-top: 10px;
+  margin: 10px auto 0;
   font-size: 14px;
   height: 130px;
-  width: 205px;
+  width: 150px;
 }
 @media screen and (min-width: 48em) {
   .cu-services_list_container .cu-services_list_item summary {
+    margin: 10px 0 0 0;
+    margin: 0.625rem 0 0 0;
     height: 100px;
+    width: 205px;
   }
 }
 .cu-services_list_container .cu-services_list_item button {
@@ -1166,6 +1184,13 @@ nav {
   color: #fff;
   padding: 2px 10px;
   padding: 0.125rem 0.625rem;
+}
+.cu-services_list_container .cu-services_list_item button:hover,
+.cu-services_list_container .cu-services_list_item button active,
+.cu-services_list_container .cu-services_list_item button focus {
+  background-color: #fff;
+  border-color: #021b4f;
+  color: #021b4f;
 }
 #neglected-policies .neglected-policies_container {
   background-image: url("../../images/neglected-policies.png");
@@ -1200,6 +1225,15 @@ nav {
 @media screen and (min-width: 48em) {
   #neglected-policies .neglected-policies_container .content .np-data image {
     width: 240px;
+  }
+}
+#neglected-policies .neglected-policies_container .content p {
+  font-size: 20px;
+}
+@media screen and (min-width: 48em) {
+  #neglected-policies .neglected-policies_container .content p {
+    font-size: 16px;
+    line-height: 30px;
   }
 }
 #neglected-policies .neglected-policies_container .t-header {

@@ -83,7 +83,7 @@
           <div class="cu-services_info">
               <p> </p>
               <div class="cu-services_buttons">
-                  <button class="btn t-button t-button-aqua"> GET A QUOTE FROM EMR REVIEW </button>
+                  <button class="btn t-button t-button-aqua"> GET A QUOTE FOR CLAIMS REP </button>
                   <button class="btn t-button t-button-aqua"> SIGN UP </button>
               </div>
           </div>
