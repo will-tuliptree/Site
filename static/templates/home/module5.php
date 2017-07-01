@@ -16,7 +16,7 @@
                           <summary> Tell us about the accident first and let us
                           provide guidance on how to report it to your carrier
                           </summary>
-                          <button class="btn t-btn_modal" data-modalid="modal-claims">More info</button>
+                          <button class="btn t-btn_modal"  data-modalid="modal-claims_reporting">More info</button>
                     </div>
                     <span class="number">1</span>
                   </li>
@@ -27,7 +27,7 @@
                               Includes case monitoring, retiring cases, reducing reserves,
                               experience modification reviews and challenging cases.
                           </summary>
-                          <button class="btn">More info</button>
+                          <button class="btn t-btn_modal" data-modalid="modal-claims_control">More info</button>
                     </div>
                     <span class="number">2</span>
                   </li>
@@ -38,7 +38,7 @@
                               We provide billing assistance, policy explanation
                               and proper payroll allocation and classification.
                           </summary>
-                          <button class="btn">More info</button>
+                          <button class="btn t-btn_modal" data-modalid="modal-account_maintenance">More info</button>
                     </div>
                     <span class="number">3</span>
 
@@ -49,7 +49,7 @@
                           <summary>
                               We can provide workers' compensation audit guidance.
                           </summary>
-                          <button class="btn">More info</button>
+                          <button class="btn t-btn_modal" data-modalid="modal-audit_assistance">More info</button>
                     </div>
                     <span class="number">4</span>
 
@@ -62,7 +62,7 @@
                               We provide assistance with the NYSIF credit and collection
                               department.
                           </summary>
-                          <button class="btn">More info</button>
+                          <button class="btn t-btn_modal" data-modalid="modal-cancellation">More info</button>
                     </div>
                     <span class="number">5</span>
                   </li>
@@ -74,7 +74,7 @@
                               We provide assistance with issues regarding the New York
                               Workers' Compensation Board and Compensation Insurance Rating Board.
                           </summary>
-                          <button class="btn">More info</button>
+                          <button class="btn t-btn_modal" data-modalid="modal-board_assistance">More info</button>
                     </div>
                     <span class="number">6</span>
                   </li>

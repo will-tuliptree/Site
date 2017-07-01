@@ -10064,4 +10064,42 @@ nav {
 .np-details {
   margin-top: 50px;
 }
+.t-subscribe {
+  margin: 80px auto 0;
+}
+.t-subscribe .subscribe-title {
+  text-align: center;
+  font-size: 24px;
+  color: #021b4f;
+}
+.t-subscribe .subscribe-title span {
+  display: block;
+  font-size: 14px;
+}
+.t-subscribe td {
+  display: block;
+  margin-left: 15px;
+  width: 525px;
+}
+.t-subscribe td input {
+  width: 500px;
+}
+.t-subscribe .t-button {
+  background-color: #9debde;
+  height: 40px;
+  font-size: 22px;
+  color: #021b4f;
+}
+.t-subscribe .t-button:hover,
+.t-subscribe .t-button active,
+.t-subscribe .t-button focus {
+  background-color: #021b4f;
+  border-color: #021b4f;
+  color: #fff;
+}
+.t-modal_subscribe .modal-close {
+  top: 0;
+  right: 90px;
+  color: #000;
+}
 

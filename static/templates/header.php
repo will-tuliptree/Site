@@ -26,7 +26,7 @@
                   </div>
               </div>
               <div class="nav-item"><a href="#"> CONTACT US </a>  </div>
-              <div class="nav-item" id="nav-signUp"><a href="#"> SIGN UP </a>  </div>
+              <div class="nav-item t-btn_modal" data-modalid="crmWebToEntityForm" id="nav-signUp"><a href="JavaScript:Void(0)"> SIGN UP </a>  </div>
 
             </div>
             <!--<div class="nav-signUp"><a href="#"> Sign Up </a>  </div>-->
