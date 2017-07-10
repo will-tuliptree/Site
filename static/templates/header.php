@@ -17,10 +17,10 @@
               </div>
               <div class="nav-item"><a href="#"> <img class="nav-logo" src="images/logo.png"> </a>  </div>
               <div class="nav-item">
-                  <a href="#"> GET A QUOTE </a>
+                  <a href="#" class="t-btn_modal" data-modalid="get-a-quote_form"> GET A QUOTE </a>
                   <div class="nav-item_box ">
                       <div class="nav-item_box_content">
-                          <a class="sub-nav_link" href="#"> EMR </a>
+                          <a class="sub-nav_link t-btn_modal" data-modalid="get-a-quote_form" href="#"> EMR </a>
                           <a class="sub-nav_link" href="#"> CLAIMS REPRESENTATION </a>
                     </div>
                   </div>

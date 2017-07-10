@@ -10,6 +10,7 @@
       <div class="hidden">
           <?php include 'templates/home/modals.php'; ?>
           <?php include 'templates/home/web-to-lead.php'; ?>
+          <?php include 'templates/home/get-a-quote.php'; ?>
 
       </div>
 

@@ -21,7 +21,7 @@
                           <li> NO RISK, NO FEE IF NO RECOVERY </li>
                           <li> % OF RECOVERY</li>
                       </ul>
-                      <button class="btn t-button t-btn_modal" data-modalid="modal-third-party_rep" id="emr-btn"> LEARN MORE </button>
+                      <button class="btn t-button t-btn_modal" data-modalid="modal-exp-mod_review" id="emr-btn"> LEARN MORE </button>
 
                   </li>
 

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0">
+	<meta name="robots" content="noindex, nofollow">
 	<title>Tulip Tree</title>
 	<link rel="stylesheet" href="/src/css/main.concat.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -59,7 +59,7 @@
           </summary>
           <div class="mod-reviews_buttons">
               <button class="btn t-button"> GET A QUOTE FROM EMR REVIEW </button>
-              <button class="btn t-button"> SIGN UP </button>
+              <button class="btn t-button t-btn_modal" data-modalid="crmWebToEntityForm"> SIGN UP </button>
           </div>
 
       </div>

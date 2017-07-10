@@ -10,13 +10,11 @@
         <i class="down-arrow fa"> </i>
         <h2 class="t-header">ABOUT US</h2>
         <div class="summary-text_wrapper">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p>Between three partners, we have a collective 35+ years in the workers’ comp industry.
+                 We managed about $15 million in premium annually and represented hundreds of clients
+                 in claims and underwriting for our small Safety Groups of the New York State Insurance Fund (NYSIF).
             </p>
-            <p> Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+
         </div>
 
     </div>
