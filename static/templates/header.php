@@ -3,29 +3,29 @@
       <nav id="nav">
         <div class="row text-center">
             <div class="nav-item-container">
-              <div class="nav-item"><a href="#"> ABOUT US</a> </div>
+              <div class="nav-item"><a href="#summary"> ABOUT US</a> </div>
               <div class="nav-item">
-                  <a href="#"> OUR SERVICES </a>
+                  <a href="#services"> OUR SERVICES </a>
                   <div class="nav-item_box ">
                       <div class="nav-item_box_content">
-                          <a class="sub-nav_link" href="#"> CLAIMS & UNDERWRITING </a>
-                          <a class="sub-nav_link" href="#"> MOD REVIEWS </a>
-                          <a class="sub-nav_link" href="#"> BROKER </a>
+                          <a class="sub-nav_link" href="#cu-services" > CLAIMS & UNDERWRITING </a>
+                          <a class="sub-nav_link t-btn_modal" href="JavaScript:Void(0)" data-modalid="modal-exp-mod_review"> MOD REVIEWS </a>
+                          <a class="sub-nav_link" href=""> BROKER </a>
 
                     </div>
                   </div>
               </div>
               <div class="nav-item"><a href="#"> <img class="nav-logo" src="images/logo.png"> </a>  </div>
               <div class="nav-item">
-                  <a href="#" class="t-btn_modal" data-modalid="get-a-quote_form"> GET A QUOTE </a>
+                  <a href="JavaScript:Void(0)" class="t-btn_modal" data-modalid="get-a-quote_form"> GET A QUOTE </a>
                   <div class="nav-item_box ">
                       <div class="nav-item_box_content">
-                          <a class="sub-nav_link t-btn_modal" data-modalid="get-a-quote_form" href="#"> EMR </a>
-                          <a class="sub-nav_link" href="#"> CLAIMS REPRESENTATION </a>
+                          <a class="sub-nav_link t-btn_modal" data-modalid="get-a-quote_form" href="JavaScript:Void(0)"> EMR </a>
+                          <a class="sub-nav_link t-btn_modal" data-modalid="get-a-quote_form" href="JavaScript:Void(0)"> CLAIMS REPRESENTATION </a>
                     </div>
                   </div>
               </div>
-              <div class="nav-item"><a href="#"> CONTACT US </a>  </div>
+              <div class="nav-item"><a href="#contact-us"> CONTACT US </a>  </div>
               <div class="nav-item t-btn_modal" data-modalid="crmWebToEntityForm" id="nav-signUp"><a href="JavaScript:Void(0)"> SIGN UP </a>  </div>
 
             </div>
@@ -42,10 +42,10 @@
         </span>
       </button>
       <ul class="mobile-nav-wrapper hidden fadeOut animated" id="mobile-nav-list">
-        <li> <a href="#"> ABOUT US</a></li>
-        <li> <a href="#"> OUR SERVICES </a></li>
+        <li> <a href="#summary"> ABOUT US</a></li>
+        <li> <a href="#services"> OUR SERVICES </a></li>
         <li> <a href="#"> GET A QUOTE </a></li>
-        <li><a href="#"> CONTACT US</a>  </li>
+        <li><a href="#contact-us"> CONTACT US</a>  </li>
         <li><a href="#"> SIGN UP</a>  </li>
       </ul>
     </nav>
@@ -64,6 +64,15 @@ mobileNavButton.onclick = function(event) {
   mobileNavList.classList.toggle("fadeOut");
  };
 
+mobileNavList.onclick = function(event){
+    mobileNavButton.classList.toggle("is-active");
+    mobileNav.classList.toggle("mobile-nav-active");
+    mobileNavList.classList.toggle("fadeIn");
+    mobileNavList.classList.toggle("fadeOut");
+    mobileNavList.classList.toggle("hidden");
+
+
+}
 
 
 </script>
