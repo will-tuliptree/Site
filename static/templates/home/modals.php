@@ -127,3 +127,84 @@
         Board and Compensation Insurance Rating Board.
     </p>
 </div>
+
+
+
+
+
+
+<div class="t-modal" id="modal-third-party_rep">
+    <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
+    <h2> THIRD PARTY REPRESENTATION </h2>
+    <p>
+
+        We study each case and become intimately familiar with its details. As representatives,
+         we can act on this analysis to put money back in your company coffers. We have
+         resources at our disposal that very few companies in New York possess, including
+         in-house-developed software and vast knowledge of NYSIF procedures. If you are new in
+          business or you are a business with a high experience modification rating, your
+          rating must improve or be repaired before you can jump carriers. A low experience
+          rating is as good as a “get-out-of-jail-free card” when you’re trapped with
+        an expensive workers’ comp coverage policy, and we work very hard to get you that rating.
+    </p>
+
+
+
+    <div class="t-modal_section">
+        <h3> BROKERS </h3>
+        <p>
+            Has your client been turned away from a carrier for a bad experience modification rating?
+             Are they stuck in their current carrier? We can improve your client’s experience rating,
+              meaning you have greater freedom to select the carrier that best suits your client.
+             Please branch out to see how you can grow with us or request a quote for you client.
+        </p>
+    </div>
+
+
+    <div class="t-modal_section">
+        <h3> STATE FUND </h3>
+        <p>
+
+            If your client is with the State Insurance Fund in the Assigned Risk Pool,
+            then you are collecting no commission per NYSIF regulations and your client is
+            probably paying a higher rate, due to a higher experience rating and lack of
+            proper claims service. As representatives, we provide assistance with your
+            client’s workers’ compensation policy in both claims and underwriting, for which we
+            charge a service fee. If you make us representatives on the policy for either
+            of our services, we will pay you for it. This means you can finally earn for
+            Group 90 business, while you wait for us to ultimately help your client move
+            outside NYSIF or to a commission-paying Safety Group. Alternatively,
+            we can undertake a mod review for your client, for which you receive a fee.
+
+        </p>
+    </div>
+
+
+    <div class="t-modal_section">
+        <h3> NEGLECTED POLICIES </h3>
+        <p> 
+            Our research across a group of about 200 clients who had no mod review or claims assistance
+            beyond what their broker provided, we discovered that at least 32% had significant
+            claim discrepancies within the last 7 years, while at least 16% were refund eligible.
+        </p>
+    </div>
+</div>
+
+
+
+
+<div class="t-modal" id="modal-exp-mod_review">
+    <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
+    <h2> EXPERIENCE MODIFICATION RATING (EMR) REVIEW </h2>
+    <p>
+        Included Free of Recovery Fee as part of our Claims and Underwriting Service - If you have past
+        claims, you may be eligible for a refund.
+    </p>
+
+    <p>
+        If you have past claims, there is a good chance the carrier overestimated the cost of the accident,
+        which increased your experience rating and in turn raised your premium. We analyze your claims history
+        and submit corrections to the carrier on your behalf. If the carrier accepts them, you will be refunded your premium
+        and your experience rating will be lowered for the year(s) of the overestimated claim.
+    </p>
+</div>

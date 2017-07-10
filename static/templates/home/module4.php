@@ -43,7 +43,7 @@
                   <span class="stat-description"> of our revised claims submissions resulted in a refund for our client. </span>
               </div>
               <div class="col-xs-12 col-sm-4">
-                  <span class="stat"> $11k </span>
+                  <span class="stat"> $11K </span>
                   <span class="stat-description"> of our client's premium was recovered, on average. </span>
               </div>
               <div class="col-xs-12 col-sm-4">

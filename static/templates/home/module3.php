@@ -17,11 +17,11 @@
                           be eligible for a refund.
                       </p>
                       <ul class="list-item_container">
-                          <li> SHORTER TERM</li>
+                          <li> TERM: 1-12 MONTHS</li>
                           <li> NO RISK, NO FEE IF NO RECOVERY </li>
-                          <li> 30-50% OF RECOVERY</li>
+                          <li> % OF RECOVERY</li>
                       </ul>
-                      <button class="btn t-button t-btn_modal" data-modalid="modal-claims" id="emr-btn"> LEARN MORE </button>
+                      <button class="btn t-button t-btn_modal" data-modalid="modal-third-party_rep" id="emr-btn"> LEARN MORE </button>
 
                   </li>
 
@@ -31,7 +31,7 @@
                       <div class="img-container">
                           <img src="images/wrench.svg"/>
                       </div>
-                      <h3> CLAIMS REPRESENTATION </h3>
+                      <h3> THIRD PARTY REPRESENTATION</h3>
                       <summary> Get-Out-Of-NYSIF Plan</summary>
                       <p>
                           We represent your policy with the carrier, serve as your
@@ -39,11 +39,12 @@
                           and mitigate your claims.
                       </p>
                       <ul class="list-item_container">
-                          <li> LONGER TERM</li>
+                          <li> TERM: 1 YEAR+</li>
                           <li> GREATER LONG-TERM VALUE </li>
-                          <li> 2-10% OF UNMODIFIED PREMIUM</li>
+                          <li> % OF UNMODIFIED PREMIUM</li>
+                          <li> EMR REVIEWS INCLUDED </li>
                       </ul>
-                      <button class="btn t-button t-btn_modal" id="claims-btn" data-modalid="modal-claims"> LEARN MORE </button>
+                      <button class="btn t-button t-btn_modal" id="claims-btn" data-modalid="modal-third-party_rep"> LEARN MORE </button>
 
                   </li>
 
