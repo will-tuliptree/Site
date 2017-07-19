@@ -285,6 +285,20 @@ nav {
   opacity: 0;
   zoom: 1;
 }
+#mobile-nav-logo {
+  width: 100%;
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  z-index: -10;
+}
+#mobile-nav-logo .nav-logo {
+  width: 35px;
+}
+#mobile-nav-button {
+  z-index: 2;
+}
 @font-face {
   font-family: "Avenir-Book";
   src: url("/fonts/Avenir/Avenir-Book.eot?#iefix");
@@ -864,6 +878,63 @@ nav {
   width: 110px;
   margin-top: 70px;
 }
+.arrow-container {
+  position: relative;
+}
+#summary-arrow {
+  -webkit-animation: MoveUpDown 1s linear infinite;
+  -moz-animation: MoveUpDown 1s linear infinite;
+  -o-animation: MoveUpDown 1s linear infinite;
+  -ms-animation: MoveUpDown 1s linear infinite;
+  animation: MoveUpDown 1s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+@-moz-keyframes MoveUpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 5px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@-webkit-keyframes MoveUpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 5px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@-o-keyframes MoveUpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 5px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@keyframes MoveUpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 5px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
 .container-slant {
   background: #41ade5;
   position: relative;
@@ -1217,12 +1288,14 @@ nav {
     width: 240px;
   }
 }
-#neglected-policies .neglected-policies_container .content .np-data image {
+#neglected-policies .neglected-policies_container .content .np-data image,
+#neglected-policies .neglected-policies_container .content .np-data img {
   width: 120px;
   height: auto;
 }
 @media screen and (min-width: 48em) {
-  #neglected-policies .neglected-policies_container .content .np-data image {
+  #neglected-policies .neglected-policies_container .content .np-data image,
+  #neglected-policies .neglected-policies_container .content .np-data img {
     width: 240px;
   }
 }
@@ -1250,7 +1323,6 @@ nav {
 }
 .np-data_container:nth-child(2) .np-data {
   position: relative;
-  bottom: 8px;
 }
 @media screen and (min-width: 48em) {
   .np-data_container:nth-child(2) {
@@ -1259,6 +1331,7 @@ nav {
 }
 .np-details {
   margin-top: 50px;
+  padding-bottom: 40px;
 }
 .t-subscribe {
   margin: 80px auto 0;

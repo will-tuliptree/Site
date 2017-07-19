@@ -1,17 +1,4 @@
-//Onclicks
-//on more info click
-//get info from hidden div with id of attr
-//info = div
-//vex.dialog.alert({ unsafeMessage: div })
 
-
-/*var modalNode = document.getElementById("modal-claims").cloneNode(true);
-vex.dialog.open({
-    unsafeMessage: modalNode
-
-})*/
-
-//var navItems = document.getElementsByClassName("nav-item");
 function openModal(button, id){
     button.addEventListener("click", function( event ) {
         var modalNode = document.getElementById(id).cloneNode(true);
@@ -29,27 +16,45 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
 });
 
-/*for (var i = 0; i < navItems.length; i++) {
-    var navItem = navItems[i];
-    if( navItem.getElementsByClassName("nav-item_box")[0] != undefined)
-    {
-        var secondTierNav = navItem.getElementsByClassName("nav-item_box")[0];
 
-        secondTierNav.addEventListener("mouseleave", function( event ) {
-            //console.log(this);
-            this.classList.add("hidden");
-            console.log("mouseout");
 
-        });
-    }
-    if( navItem.getElementsByClassName("nav-item_box")[0] != undefined)
-    {
-        navItem.addEventListener("mouseenter", function( event ) {
-            console.log(this);
-            var secondTier = this.getElementsByClassName("nav-item_box")[0];
-            secondTier.classList.remove("hidden");
-            this.classList.toggle("top");
-        });
-    }
 
-}*/
+$( document ).ready(function() {
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          &&
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+    
+});

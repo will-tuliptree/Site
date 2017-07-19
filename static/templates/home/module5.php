@@ -2,12 +2,11 @@
     <div class="cu-services_container">
       <div class="content">
           <h2 class="t-header">CLAIMS & UNDERWRITING SERVICES</h2>
-          <p class="cu-services_description">At vero eos et accusamus et iusto odio dignissimos ducimus
-              qui blanditiis praesentium voluptatum deleniti atque corrupti
-              quos dolores et quas molestias excepturi sint occaecati
-              cupiditate non provident, similique sunt in culpa qui officia
-               deserunt mollitia animi, id est laborum et dolorum fuga.
-              Et harum quidem rerum facilis est et expedita distinctio. </p>
+          <p class="cu-services_description">
+            In this day and age, your company is at the mercy of your insurance carrier,
+             especially the State Insurance Fund.
+            Your Company needs an advocate that will keep the carrie in check for you - that’s where we come in.
+          </p>
           <div class="cu-services_list_container">
               <ul class="cu-services_list row">
                   <li class="cu-services_list_item col-xs-6 col-sm-4">

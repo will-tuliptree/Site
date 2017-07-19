@@ -3,7 +3,7 @@
       <nav id="nav">
         <div class="row text-center">
             <div class="nav-item-container">
-              <div class="nav-item"><a href="#summary"> ABOUT US</a> </div>
+              <div class="nav-item"><a href="#about-content"> ABOUT US</a> </div>
               <div class="nav-item">
                   <a href="#services"> OUR SERVICES </a>
                   <div class="nav-item_box ">
@@ -42,13 +42,17 @@
         </span>
       </button>
       <ul class="mobile-nav-wrapper hidden fadeOut animated" id="mobile-nav-list">
-        <li> <a href="#summary"> ABOUT US</a></li>
+        <li> <a href="#about-content"> ABOUT US</a></li>
         <li> <a href="#services"> OUR SERVICES </a></li>
         <li> <a href="#"> GET A QUOTE </a></li>
         <li><a href="#contact-us"> CONTACT US</a>  </li>
         <li><a href="#"> SIGN UP</a>  </li>
       </ul>
+      <div id="mobile-nav-logo" href="#">
+          <img class="nav-logo" src="images/logo.png">
+      </div>
     </nav>
+
 
 
 <script>
@@ -56,12 +60,14 @@
 var mobileNav = document.getElementById('mobile-nav');
 var mobileNavButton = document.getElementById('mobile-nav-button');
 var mobileNavList = document.getElementById('mobile-nav-list');
+var mobileLogo = document.getElementById('mobile-nav-logo');
 mobileNavButton.onclick = function(event) {
   this.classList.toggle("is-active");
   mobileNav.classList.toggle("mobile-nav-active");
   mobileNavList.classList.toggle("hidden");
   mobileNavList.classList.toggle("fadeIn");
   mobileNavList.classList.toggle("fadeOut");
+  mobileLogo.classList.toggle("hidden");
  };
 
 mobileNavList.onclick = function(event){
@@ -70,10 +76,11 @@ mobileNavList.onclick = function(event){
     mobileNavList.classList.toggle("fadeIn");
     mobileNavList.classList.toggle("fadeOut");
     mobileNavList.classList.toggle("hidden");
+    mobileLogo.classList.toggle("hidden");
+
 
 
 }
-
 
 </script>
 
