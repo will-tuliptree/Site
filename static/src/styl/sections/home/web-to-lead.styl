@@ -1,5 +1,6 @@
 .t-subscribe
-    margin 80px auto 0
+    margin 40px auto 0
+    width 100%
     .subscribe-title
         text-align center
         font-size 24px
@@ -7,12 +8,18 @@
         span
             display block
             font-size 14px
+    @media $desktop-up
+        width auto
     td
         display block
         margin-left 15px
-        width 525px
+        width 92%
+        @media $desktop-up
+            width 525px
         input
-            width 500px
+            width 100%
+            @media $desktop-up
+                width 500px
     .t-button
         background-color $tuliptree-Aqua
         height 40px
@@ -25,5 +32,7 @@
 .t-modal_subscribe
     .modal-close
         top 0
-        right 90px
+        right 15px
         color #000
+        @media $desktop-up
+            right 90px

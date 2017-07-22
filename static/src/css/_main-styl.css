@@ -769,6 +769,16 @@ nav {
   padding-top: 70px;
   padding-bottom: 60px;
 }
+#get-a-quote_form .picklist {
+  width: 100%;
+  padding-left: 5px;
+  -webkit-appearance: menulist;
+}
+@media screen and (min-width: 62em) {
+  #get-a-quote_form .picklist {
+    width: 500px;
+  }
+}
 .t-modal h2 {
   text-align: center;
   font-size: 20px;
@@ -1334,7 +1344,8 @@ nav {
   padding-bottom: 40px;
 }
 .t-subscribe {
-  margin: 80px auto 0;
+  margin: 40px auto 0;
+  width: 100%;
 }
 .t-subscribe .subscribe-title {
   text-align: center;
@@ -1345,13 +1356,28 @@ nav {
   display: block;
   font-size: 14px;
 }
+@media screen and (min-width: 62em) {
+  .t-subscribe {
+    width: auto;
+  }
+}
 .t-subscribe td {
   display: block;
   margin-left: 15px;
-  width: 525px;
+  width: 92%;
+}
+@media screen and (min-width: 62em) {
+  .t-subscribe td {
+    width: 525px;
+  }
 }
 .t-subscribe td input {
-  width: 500px;
+  width: 100%;
+}
+@media screen and (min-width: 62em) {
+  .t-subscribe td input {
+    width: 500px;
+  }
 }
 .t-subscribe .t-button {
   background-color: #9debde;
@@ -1368,6 +1394,11 @@ nav {
 }
 .t-modal_subscribe .modal-close {
   top: 0;
-  right: 90px;
+  right: 15px;
   color: #000;
+}
+@media screen and (min-width: 62em) {
+  .t-modal_subscribe .modal-close {
+    right: 90px;
+  }
 }
