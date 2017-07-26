@@ -58,7 +58,7 @@
               employer in your industry.
           </summary>
           <div class="mod-reviews_buttons">
-              <button class="btn t-button t-btn_modal" data-modalid="get-a-quote_form" href="JavaScript:Void(0)"> GET A QUOTE FROM EMR REVIEW </button>
+              <button class="btn t-button t-btn_modal" data-modalid="get-a-quote_form" href="JavaScript:Void(0)"> GET A QUOTE FOR EMR REVIEW </button>
               <button class="btn t-button t-btn_modal" data-modalid="crmWebToEntityForm"> SIGN UP </button>
           </div>
 
