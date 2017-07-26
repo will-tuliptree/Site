@@ -5,7 +5,7 @@
           <div class="np-details">
               <div class="np-data_container">
                   <div class="np-data">
-                  <img src="images/32.svg">
+                  <img src="images/32.png">
                 </div>
               </div>
               <div class="np-data_container">

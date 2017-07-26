@@ -3,14 +3,21 @@
       <nav id="nav">
         <div class="row text-center">
             <div class="nav-item-container">
-              <div class="nav-item"><a href="#about-content"> ABOUT US</a> </div>
+              <div class="nav-item">
+                  <a href="#about-content"> ABOUT US</a>
+                  <div class="nav-item_box ">
+                      <div class="nav-item_box_content">
+                          <a class="sub-nav_link t-btn_modal" href="JavaScript:Void(0)" data-modalid="modal-about" > MORE INFO </a>
+                    </div>
+                  </div>
+              </div>
               <div class="nav-item">
                   <a href="#services"> OUR SERVICES </a>
                   <div class="nav-item_box ">
                       <div class="nav-item_box_content">
                           <a class="sub-nav_link" href="#cu-services" > CLAIMS & UNDERWRITING </a>
                           <a class="sub-nav_link t-btn_modal" href="JavaScript:Void(0)" data-modalid="modal-exp-mod_review"> MOD REVIEWS </a>
-                          <a class="sub-nav_link" href=""> BROKER </a>
+                         <!-- <a class="sub-nav_link" href=""> BROKER </a> -->
 
                     </div>
                   </div>

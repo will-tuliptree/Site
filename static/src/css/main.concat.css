@@ -9582,15 +9582,8 @@ nav {
   padding-top: 70px;
   padding-bottom: 60px;
 }
-#get-a-quote_form .picklist {
-  width: 100%;
-  padding-left: 5px;
-  -webkit-appearance: menulist;
-}
-@media screen and (min-width: 62em) {
-  #get-a-quote_form .picklist {
-    width: 500px;
-  }
+.tp-footnote {
+  font-style: italic;
 }
 .t-modal h2 {
   text-align: center;
@@ -9689,6 +9682,20 @@ nav {
 }
 .summary-container p:nth-child(2) {
   margin-top: 20px;
+}
+.summary-container .t-button {
+  display: block;
+  background-color: #9debde;
+  border-color: #9debde;
+  margin: 0 auto 15px;
+  margin: 0 auto 0.9375rem;
+}
+.summary-container .t-button:hover,
+.summary-container .t-button active,
+.summary-container .t-button focus {
+  background-color: #021b4f;
+  border-color: #021b4f;
+  color: #fff;
 }
 .img-overlay:before {
   background-color: rgba(32,40,66,0.7);
@@ -9877,7 +9884,7 @@ nav {
   margin-top: 10px;
   color: #021b4f;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
 }
 .services-list_container .services-list .services-list_item p {
   font-weight: 500;

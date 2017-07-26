@@ -57,7 +57,7 @@
     <h2> CLAIMS REPORTING </h2>
     <p> Claims are complex and are as unique as a fingerprint. Our claims expertise
         and the various resources we have acquired over the years give us the ability
-        to recognize opportunities to keep your experience ratig low and save you money.
+        to recognize opportunities to keep your experience rating low and save you money.
     </p>
 </div>
 
@@ -182,7 +182,7 @@
 
     <div class="t-modal_section">
         <h3> NEGLECTED POLICIES </h3>
-        <p> 
+        <p>
             Our research across a group of about 200 clients who had no mod review or claims assistance
             beyond what their broker provided, we discovered that at least 32% had significant
             claim discrepancies within the last 7 years, while at least 16% were refund eligible.
@@ -197,14 +197,49 @@
     <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
     <h2> EXPERIENCE MODIFICATION RATING (EMR) REVIEW </h2>
     <p>
-        Included Free of Recovery Fee as part of our Claims and Underwriting Service - If you have past
-        claims, you may be eligible for a refund.
+        If you have past claims, there is a good chance the carrier overestimated the cost
+        of the accident, which increased your experience rating and in turn raised your
+        premium. We analyze your claims history and submit corrections to the carrier
+        on your behalf. If the carrier accepts them, you will be refunded your premium and your
+        experience rating will be lowered for the year(s) of the overestimated claim.
     </p>
 
     <p>
-        If you have past claims, there is a good chance the carrier overestimated the cost of the accident,
-        which increased your experience rating and in turn raised your premium. We analyze your claims history
-        and submit corrections to the carrier on your behalf. If the carrier accepts them, you will be refunded your premium
-        and your experience rating will be lowered for the year(s) of the overestimated claim.
+        Strokes are to neurologists what claims are to Tuliptree. The longer a claim goes
+        untreated, the more irreversible damage. Similar to auto insurance, workers’
+        comp claims affect your insurance for three years, beginning the year after
+        the accident.
+    </p>
+    <p>
+        To get any refund, you have a three year window for most claims* to revise
+        the losses. It is much better to contact an experience modification
+        specialist in the first year so they can track the claim over a three year period.
+    </p>
+    <p class="tp-footnote"> *We are able to make revisions for very old cases sometimes, in cases of subrogation especially.  </p>
+</div>
+
+
+
+
+
+<div class="t-modal" id="modal-about">
+    <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
+    <h2> About Us</h2>
+    <p>
+        Our unique perspectives of the inter-workings between NYSIF and its insured clients,
+         and the inner-workings of NYSIF itself, set us apart from the competitors in
+         our niche industry. Over the past several years, we witnessed a wave of
+         political and economic events sweep through the workers’ comp
+        field in New York, which have made workers’ comp more complex and expensive.
+    </p>
+
+    <p>
+    Tuliptree positions itself as the missing-link specialist between employers, carriers,
+     and brokers. While the broker is generally the best advocate when it comes to choosing
+     insurance coverage, most cannot expertly administer the policy after it goes into effect.
+      The truth is this: most brokers don’t know the ins and outs of workers’ compensation
+       claims. That’s where we come in. We do know the ins and outs, and how to hold the carrier
+        accountable, and get money back for the insured employer. At its roots,
+     Tuliptree is about working hard to help everyday business owners in the Empire State.
     </p>
 </div>
