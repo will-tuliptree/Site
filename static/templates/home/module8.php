@@ -10,7 +10,7 @@
               </div>
               <div class="np-data_container">
                   <div class="np-data">
-                      <img src="images/16.svg">
+                      <img src="images/16.png">
                  </div>
               </div>
           </div>
