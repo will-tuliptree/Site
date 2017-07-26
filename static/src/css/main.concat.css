@@ -9070,10 +9070,6 @@ nav {
   padding-left: 15px;
   list-style-type: none;
 }
-.mobile-nav-wrapper li {
-  padding: 10px 0;
-  padding: 0.625rem 0;
-}
 .mobile-nav-wrapper li:hover {
   background-color: #021b4f;
 }
@@ -9081,7 +9077,10 @@ nav {
   color: #fff;
 }
 .mobile-nav-wrapper li a {
-  padding-left: 15px;
+  padding: 10px 0 10px 15px;
+  padding: 0.625rem 0 0.625rem 0.9375rem;
+  width: 100%;
+  display: block;
 }
 .nav-hide {
   height: 0;
@@ -10181,13 +10180,18 @@ nav {
     width: 525px;
   }
 }
-.t-subscribe td input {
+.t-subscribe td input,
+.t-subscribe td select {
   width: 100%;
 }
 @media screen and (min-width: 62em) {
-  .t-subscribe td input {
+  .t-subscribe td input,
+  .t-subscribe td select {
     width: 500px;
   }
+}
+.t-subscribe select {
+  padding-left: 10px;
 }
 .t-subscribe .t-button {
   background-color: #9debde;

@@ -51,9 +51,9 @@
       <ul class="mobile-nav-wrapper hidden fadeOut animated" id="mobile-nav-list">
         <li> <a href="#about-content"> ABOUT US</a></li>
         <li> <a href="#services"> OUR SERVICES </a></li>
-        <li> <a href="#"> GET A QUOTE </a></li>
+        <li> <a class="t-btn_modal" href="javaScript:void(0)" data-modalid="get-a-quote_form"> GET A QUOTE </a></li>
         <li><a href="#contact-us"> CONTACT US</a>  </li>
-        <li><a href="#"> SIGN UP</a>  </li>
+        <li><a class="t-btn_modal" href="JavaScript:Void(0)" data-modalid="crmWebToEntityForm"> SIGN UP</a>  </li>
       </ul>
       <div id="mobile-nav-logo" href="#">
           <img class="nav-logo" src="images/logo.png">

@@ -24,14 +24,14 @@
 
 	<tbody><tr class="subscribe-title"><td colspan="2" style="font-family:Arial;"><strong>Get A Quote</strong></td></tr>
 
-	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;">First Name</td><td style="width:250px;"><input type="text" style="" maxlength="40" name="First Name"></td></tr>
+	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;">First Name</td><td style=""><input type="text" style="" maxlength="40" name="First Name"></td></tr>
 
-	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;">Last Name<span style="color:red;">*</span></td><td style="width:250px;"><input type="text" style="" maxlength="80" name="Last Name"></td></tr>
+	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;">Last Name<span style="color:red;">*</span></td><td style=""><input type="text" style="" maxlength="80" name="Last Name"></td></tr>
 
-	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;">Email</td><td style="width:250px;"><input type="text" style="" maxlength="100" name="Email"></td></tr>
+	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;">Email</td><td style=""><input type="text" style="" maxlength="100" name="Email"></td></tr>
 
-	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;">Quote Categories</td><td style="">
-		<select style="width:500px;" name="CONTACTCF1">
+	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;">Quote Categories</td><td style="">
+		<select  name="CONTACTCF1">
 			<option value="-None-">-None-</option>
 			<option value="EMR">EMR</option>
 			<option value="Claims Representation">Claims Representation</option>
