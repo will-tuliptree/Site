@@ -13,7 +13,7 @@
         <h2 class="t-header" id="about-content">ABOUT US</h2>
         <div class="summary-text_wrapper" >
             <p>
-                Between three of the partners, we have a collective 35+ years in the workers’
+                Between three partners, we have a collective 35+ years in the workers’
                 compensation insurance industry. We managed about $20 million in premium annually
                 and represented hundreds of clients in claims
                 and underwriting for our Safety Groups of the New York State Insurance Fund (NYSIF).

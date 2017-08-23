@@ -14,10 +14,14 @@
                  </div>
               </div>
           </div>
-          <p>Our research across a group of about 200 clients who had no mod review
-          or claims assistance beyond what their broker provided, we discovered that
-          at least 32% had significant claim discepancies within the last 7 years,
-            while at least 16% were refund eligible with the [FPO].</p>
+          <p>In our research across a group of 183 clients, who had no
+              experience modification reviews or claims assistance beyond what their broker
+              provided, we discovered that at least 32% had significant claim discepancies within
+              the last 7 years, while at least half of those, or about 16% in total, were refund
+              eligible at the time. The remainder of the clients with significant claims discrepancies,
+               those which were non-refund-eligible, had claims outside
+              the window of opportunity–as in they were carrier overcharges that were
+              never addressed.</p>
       </div>
   </div>
 </section>

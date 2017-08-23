@@ -12,9 +12,7 @@
                       <h3> EXPERIENCE MODIFICATION RATING (EMR) REVIEW </h3>
                       <summary> Rating Repair & Refund Plan </summary>
                       <p>
-                          If you have past claims, there is a good chance the carrier
-                          over-estimated the cost of the accident, which means you may
-                          be eligible for a refund.
+
                       </p>
                       <ul class="list-item_container">
                           <li> TERM: 1-12 MONTHS</li>
@@ -32,7 +30,7 @@
                           <img src="images/wrench.svg"/>
                       </div>
                       <h3> THIRD PARTY REPRESENTATION</h3>
-                      <summary> Get-Out-Of-NYSIF Plan</summary>
+                      <summary> Heavy-Duty Rating Repair Plan</summary>
                       <p>
                           We represent your policy with the carrier, serve as your
                           point of contact for accidents, and administer, analyze,

@@ -1,7 +1,7 @@
 <section id="cu-services">
     <div class="cu-services_container">
       <div class="content">
-          <h2 class="t-header">CLAIMS & UNDERWRITING SERVICES</h2>
+          <h2 class="t-header">Third Party Administration</h2>
           <p class="cu-services_description">
             In this day and age, your company is at the mercy of your insurance carrier,
              especially the State Insurance Fund.
