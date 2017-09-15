@@ -5,18 +5,14 @@
             <div class="nav-item-container">
               <div class="nav-item">
                   <a href="#about-content"> ABOUT US</a>
-                  <div class="nav-item_box ">
-                      <div class="nav-item_box_content">
-                          <a class="sub-nav_link t-btn_modal" href="JavaScript:Void(0)" data-modalid="modal-about" > MORE INFO </a>
-                    </div>
-                  </div>
+
               </div>
               <div class="nav-item">
                   <a href="#services"> OUR SERVICES </a>
                   <div class="nav-item_box ">
                       <div class="nav-item_box_content">
                           <a class="sub-nav_link" href="#cu-services" > Third Party Admin </a>
-                          <a class="sub-nav_link t-btn_modal" href="JavaScript:Void(0)" data-modalid="modal-exp-mod_review"> Experience Mod Reviews </a>
+                          <a class="sub-nav_link t-btn_modal" href="#summary"> Experience Mod Reviews </a>
                          <!-- <a class="sub-nav_link" href=""> BROKER </a> -->
 
                     </div>
@@ -25,12 +21,12 @@
               <div class="nav-item"><a href="#"> <img class="nav-logo" src="images/logo.png"> </a>  </div>
               <div class="nav-item">
                   <a href="JavaScript:Void(0)" class="t-btn_modal" data-modalid="get-a-quote_form"> GET A QUOTE </a>
-                  <div class="nav-item_box ">
+                <!--  <div class="nav-item_box ">
                       <div class="nav-item_box_content">
                           <a class="sub-nav_link t-btn_modal" data-modalid="get-a-quote_form" href="JavaScript:Void(0)"> EMR </a>
                           <a class="sub-nav_link t-btn_modal" data-modalid="get-a-quote_form" href="JavaScript:Void(0)"> CLAIMS REPRESENTATION </a>
                     </div>
-                  </div>
+                </div> -->
               </div>
               <div class="nav-item"><a href="#contact-us"> CONTACT US </a>  </div>
               <div class="nav-item t-btn_modal" data-modalid="crmWebToEntityForm" id="nav-signUp"><a href="JavaScript:Void(0)"> SIGN UP </a>  </div>
