@@ -5,7 +5,7 @@
           <p class="cu-services_description">
             In this day and age, your company is at the mercy of your insurance carrier,
              especially the State Insurance Fund.
-            Your Company needs an advocate that will keep the carrie in check for you - that’s where we come in.
+            Your Company needs an advocate that will keep the carrier in check for you - that’s where we come in.
           </p>
           <div class="cu-services_list_container">
               <ul class="cu-services_list row">

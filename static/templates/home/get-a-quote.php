@@ -22,7 +22,7 @@
 	</style>
 	<table style="background-color:white;color:black" class="t-subscribe">
 
-	<tbody><tr class="subscribe-title"><td colspan="2" style="font-family:Arial;"><strong>Get A Quote</strong></td></tr>
+	<tbody><tr class="subscribe-title"><td colspan="2" style="font-family:Arial;"><strong>Get A Quote</strong><span>For a non-binding quote, complete the following fields, and we will branch out to you shortly.</span></td></tr>
 
 	<tr><td style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;">First Name</td><td style=""><input type="text" style="" maxlength="40" name="First Name"></td></tr>
 

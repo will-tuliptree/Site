@@ -26,7 +26,7 @@
 	</style>
 	<table style='background-color:white;color:black' class="t-subscribe">
 
-	<tr class="subscribe-title"><td colspan='2'><strong>Sign Up</strong><span> Sign up and get the latest news <span></td></tr>
+	<tr class="subscribe-title"><td colspan='2'><strong>Sign Up</strong><span> Sign up for the towering service of Tuliptree. For the first step, we need a few details. Please complete the following fields... <span></td></tr>
 
 	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Company<span style='color:red;'>*</span></td><td  ><input type='text'   maxlength='100' name='Company' /></td></tr>
 

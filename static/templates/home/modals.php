@@ -1,52 +1,69 @@
 <div class="t-modal" id="modal-claims_control">
     <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
     <h2> CLAIMS CONTROL </h2>
-    <p> Claims are complex and are as unique as a fingerprint. Our claims expertise
-        and the various resources we have acquired over the years give us the ability
-        to recognize opportunities to keep your experience ratig low and save you money.
+    <p> "Claims are complex and are as unique as a fingerprint.
+        Our claims expertise and the various resources we have acquired over the years
+        give us the ability to recognize opportunities to keep your experience rating low
+        and save you money."
     </p>
     <div class="t-modal_section">
         <h3> CASE MONITERING </h3>
-        <p> We vigilantly watch ove each case, look for any signs to take actionor to notify you of an important development </p>
+        <p> We vigilantly watch over each case, look for any signs to take action on or to notify you of an important development. </p>
     </div>
     <div class="t-modal_section">
         <h3> RETIRING CASES </h3>
-        <p> When there has not been any activity on a case for a certain amount of time we work to retire it.</p>
+        <p> When there has not been any activity on a case for a certain amount of time we work to retire it. This has the effect of lowering the expected losses for a company, which in turn lowers the cost of insurance.</p>
     </div>
 
     <div class="t-modal_section">
         <h3> CHALLENGING CASES</h3>
-        <p> Worker's comp is rife with fraud and it costs your company extra. If you suspect it, we will provide you
-        with expet guidance to prevent costly fraud.</p>
+        <p> Worker's comp is rife with fraud and it costs your company extra.
+            If you suspect it, contact us immediately. We know the signs to look for
+             and how to respond. We will provide you with expert guidance and help
+             you controvert the fraudlent claim, if necessary.</p>
     </div>
 
 
     <div class="t-modal_section">
         <h3> REDUCING RESERVES</h3>
-        <p> When a claim is made and the carrier overestimates the claim cost, we work to reduce teh estimate.
-        </p>
-        <p>
-        When a claim is made, the carrier estimates how much it will cost them. Often times, the estimates are way off the mark.
-        As an illustrative example, we have seen cases that should have been classified as first-aid reserved in the tens of
-        thousands of dollars. By evaluating various reports, medical and otherwise, we gather justification for why a
-        case does not merit high reserves. Then we file with the carrier to lower the reserve on these cases. This lower <thead>
-        impact on your premium.
+        <p> When a claim is made, the carrier estimates how much it will cost them. Oftentimes,
+             the estimates are way off the mark. As an illustrative example, we have seen cases
+             that should have been classified as first-aid reserved in the tens of thousands of
+             dollars. By evaluating various reports, medical and otherwise, we gather
+             justification for why a case does not merit high reserves. Then we appeal wtih
+             the claims manager to lower the reserve on these cases. This has the effect of
+            lowering the expected losses for a company, which in turn lowers the cost of insurance.
 
         </p>
     </div>
 
 
     <div class="t-modal_section">
-        <h3> EXPERIENCE MODIFICATION REVIEWS</h3>
-        <p> Included Free of Recovery Fee as Part of Our Claims and Underwriting Service -  If you have past claims,
-            you may be eligible for a refund.
+        <h3> EMR REVIEWS</h3>
+        <p>
+            Our TPA is essentially a year-round EMR Review+. Standard with our Third Party Administration
+            service, experience modification revisions are included for no additional recovery fee,
+            which would otherwise cost you 30-50% of the recovery with Tuliptree Indemnity and up to
+            70% with other mod review services. We routinely, deliberately go through your policy
+            looking for claims that you may have forgotten to report to us. We track each claim to its
+            conclusion, controlling it along the way by reducing the reserves and pushing the carrier
+             to retire the case as soon as possible.
         </p>
         <p>
-            If you have past claims, there is a good chance the carrier overestimated the cost of the
-            accident, which increased your experience rating and in turn raised your premium.
-            We analyze your claims history and submit corections to the carrier on your behalf.
-            If the carrier accepts them, you will be refunded your premium and your experience rating will be
-            lowered for teh year(s) of the overestimated claim.
+            These two elements are the bedrock of any claims service and they make it so that
+            in some cases there may be little need for an EMR revision in the first place, and in
+             other cases it can actually create an opportunity for an adjustment.
+             If there is an opportunity for an adjustment, then we can optimize our submission
+             to the carrier for the greatest possible return.
+             The biggest advantage to pursuing an EMR revision through our TPA service, in which we
+             are constantly monitoring the policy, is that adjusting claims is a very time-sensitive
+             process, now more than ever.
+        </p>
+        <p>
+            Being a few weeks too early or late can easily result in a rejection of attempted
+            corrections. That is precisely why a service that comprehensively attacks the claims is
+            far superior to contracting a random mod review every year or two. When you think
+          TPA, think EMR Review+.
         </p>
     </div>
 </div>
@@ -55,9 +72,10 @@
 <div class="t-modal" id="modal-claims_reporting">
     <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
     <h2> CLAIMS REPORTING </h2>
-    <p> Claims are complex and are as unique as a fingerprint. Our claims expertise
-        and the various resources we have acquired over the years give us the ability
-        to recognize opportunities to keep your experience rating low and save you money.
+    <p> When you have a workplace accident, it is important to report it correctly.
+        The carrier has its own self-interest at stake so it will surcharge you
+         at any opportunity. We act in your best interest,
+         so if you report the claim to us first, we can mitigate your costs.
     </p>
 </div>
 
@@ -71,21 +89,24 @@
     </p>
     <div class="t-modal_section">
         <h3> BILLING EXPLANATION </h3>
-        <p> Workers' compensation bills are complicated, so we are here to answer
-        questions about yours, since we know just getting a simple response from
-        your underswriter can be a battle in and of itself.</p>
+        <p> Workers' compensation bills are complicated, so we are here to answer questions
+            about yours, since we know just
+            getting a simple response from your underwriter can be a battle in and of itself.</p>
     </div>
     <div class="t-modal_section">
         <h3> PROPER PAYROLL ALLOCATION </h3>
         <p> We will work with you to ensure that you have the proper amount of payroll
-        insured in the right job classification codes, helping you to avoid fines
+        insured in the right job classification codes, helping you to avoid penalties
         and other headaches.</p>
     </div>
 
     <div class="t-modal_section">
         <h3> CLASSIFICATION CODE VERIFICATION </h3>
-        <p>Included Free of Recovery Fee as Part of Our Claims and Underwriting
-        Service - If you have past claims, you may be eligible for a refund.</p>
+        <p>Sometimes your job codes are misclassified, which can be costly.
+            If it is a higher-rate job code than what it should be, your company
+            is paying more premium. If it is a lower-rate job code, then your company
+            may be directly liable for accident
+            and/or may incur penalties. We can help you avoid such disasters</p>
         <p>
             If you have past claims, there is a good chance the carrier overestimated
             the cost of the accident, which increased you experience rating and in turn raised
@@ -101,10 +122,11 @@
     <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
     <h2> AUDIT ASSISTANCE </h2>
     <p>
-        We can provide workers' compensation audit guidance. The audit process can
-        be stressful and problematic for a business owner, as you may well know
+        We can provide workers' compensation audit guidance. No one knows better than, you 
+        the businsss owner, that the audit process can be stressful and problematic.
         We know what to do when your audit turns up an incorrect classification code,
         incorrect payroll figure or misclassifies employees.
+        In fact, this can all be avoided by enrolling in PayGo (contact us for details).
     </p>
 </div>
 
@@ -197,25 +219,28 @@
     <button class="modal-close vex-dialog-button-secondary vex-dialog-button vex-last"> X </button>
     <h2> EXPERIENCE MODIFICATION RATING (EMR) REVIEW </h2>
     <p>
-        If you have past claims, there is a good chance the carrier overestimated the cost
-        of the accident, which increased your experience rating and in turn raised your
-        premium. We analyze your claims history and submit corrections to the carrier
-        on your behalf. If the carrier accepts them, you will be refunded your premium and your
-        experience rating will be lowered for the year(s) of the overestimated claim.
+        An “experience modification rating” is like a credit score.
+        Much like a young college student with no credit history, a new business has no risk history.
+        Usually, a new business will land in the assigned risk pool of the NYSIF or that
+         of another carrier, similar to getting a high-interest credit card or loan.
+         Continuing with that comparison, if a business has bad risk history (i.e. significant claims)
+          it will be penalized with a high experience modification rating.
     </p>
 
     <p>
-        Strokes are to neurologists what claims are to Tuliptree. The longer a claim goes
-        untreated, the more irreversible damage. Similar to auto insurance, workers’
-        comp claims affect your insurance for three years, beginning the year after
-        the accident.
+        If a company is serious about improving its rating, an experience modification rating
+        review will probably not be enough. An EMR review merely attacks loss history,
+        but does nothing for claims that are open, or new claims yet to be made.
+         The latter two, present and future claims, represent the greatest control any
+         business has over its premium expense. We designed our Third Party Administration
+         service with this in mind. We provide a first point of contact, guidance over claims
+          submission, and perpetual claims monitoring. We communicate and negotiate with t
+          he claims, underwriting, and actuarial departments on your behalf; we even ensure your
+           account is ship-shape when it comes to billing, payroll class codes and allocation,
+           and more.
     </p>
-    <p>
-        To get any refund, you have a three year window for most claims* to revise
-        the losses. It is much better to contact an experience modification
-        specialist in the first year so they can track the claim over a three year period.
-    </p>
-    <p class="tp-footnote"> *We are able to make revisions for very old cases sometimes, in cases of subrogation especially.  </p>
+
+    <p class="tp-footnote">  </p>
 </div>
 
 

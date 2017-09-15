@@ -15,8 +15,8 @@
                   <a href="#services"> OUR SERVICES </a>
                   <div class="nav-item_box ">
                       <div class="nav-item_box_content">
-                          <a class="sub-nav_link" href="#cu-services" > CLAIMS & UNDERWRITING </a>
-                          <a class="sub-nav_link t-btn_modal" href="JavaScript:Void(0)" data-modalid="modal-exp-mod_review"> MOD REVIEWS </a>
+                          <a class="sub-nav_link" href="#cu-services" > Third Party Admin </a>
+                          <a class="sub-nav_link t-btn_modal" href="JavaScript:Void(0)" data-modalid="modal-exp-mod_review"> Experience Mod Reviews </a>
                          <!-- <a class="sub-nav_link" href=""> BROKER </a> -->
 
                     </div>
